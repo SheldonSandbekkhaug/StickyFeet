@@ -1,0 +1,5237 @@
+counter 12200000 1362937.0 0.1
+world_width 155.0
+num_groups 1
+birth_count 13669
+species_count 1320
+num_creatures 61
+world_seed 7010
+clear_creatures
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.78397775
+ids 1140 0 12840
+carnivore true
+point 127.65465 69.02082 1.0 false false false
+point 126.720634 69.00014 1.0 false false false
+point 127.54059 68.26881 1.0 false false true
+point 128.55228 68.24347 1.0 false true false
+point 127.91929 69.54795 1.0 false false false
+point 128.9403 69.669464 1.0 false false false
+point 128.22592 70.09572 1.0 false false false
+point 128.1752 71.15805 1.0 false false false
+point 128.76231 71.71588 1.0 false false false
+point 127.68828 72.21101 1.0 false false false
+point 128.49062 69.88224 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6421567 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.22549026 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.799422 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.22549026 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.22549026 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.22549026 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.22549026 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.22549026 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.22549026 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.22549026 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.22549026 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.22549026 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.22549026 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.22549026 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.9412833
+ids 1182 0 13433
+carnivore false
+point 9.653875 11.377347 1.0 false false true
+point 9.309141 12.137292 1.0 false false false
+point 9.443885 13.219989 1.0 false true false
+point 9.119898 12.384014 1.0 false false false
+point 8.034646 12.7209635 1.0 false false false
+point 8.200408 11.332288 1.0 false false false
+point 8.606398 10.834881 1.0 false false false
+point 7.7828937 10.374036 1.0 false false false
+point 6.841823 10.387499 1.0 false false false
+point 7.2390313 9.115079 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6490442 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.23237759 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.80630946 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.23237759 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.23237759 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.23237759 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.23237759 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.23237759 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.23237759 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.23237759 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.23237759 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.23237759 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.23237759 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.18820024
+ids 1228 0 13449
+carnivore false
+point 8.505493 49.822067 1.0 false false true
+point 7.9022913 48.833637 1.0 false false false
+point 7.9866896 49.760048 1.0 false true false
+point 8.406976 50.65058 1.0 false false false
+point 7.1288285 49.427525 1.0 false false false
+point 7.6593204 50.10889 1.0 false false false
+point 7.745228 49.378242 1.0 false false false
+point 6.6552343 48.84468 1.0 false false false
+point 5.528866 48.47449 1.0 false false false
+point 6.49988 47.19422 1.0 false false false
+point 7.1753645 48.625805 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.86128616 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.44461954 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.01855155 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.44461954 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.44461954 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.44461954 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.44461954 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.44461954 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.44461954 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.44461954 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.44461954 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.44461954 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.44461954 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 10 1.0 5.0 0.5 0.2 1.0 0.44461954 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.8103396
+ids 1140 0 13451
+carnivore true
+point 129.01097 15.066407 1.0 false false false
+point 128.4666 14.393584 1.0 false false false
+point 129.61586 14.439721 1.0 false false true
+point 130.24466 15.238361 1.0 false true false
+point 128.9128 15.697376 1.0 false false false
+point 129.44438 16.476254 1.0 false false false
+point 128.86821 16.295645 1.0 false false false
+point 128.13132 16.872765 1.0 false false false
+point 128.16882 17.75868 1.0 false false false
+point 126.956985 17.424768 1.0 false false false
+point 128.99945 16.424683 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.72847646 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.31180996 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.8857418 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.31180996 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.31180996 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.31180996 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.31180996 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.31180996 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.31180996 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.31180996 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.31180996 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.31180996 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.31180996 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.31180996 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.850681
+ids 1140 0 13463
+carnivore true
+point 104.654884 38.89819 1.0 false false false
+point 105.54141 39.064796 1.0 false false false
+point 104.49736 39.34399 1.0 false false true
+point 103.524124 39.243286 1.0 false true false
+point 104.70352 37.99923 1.0 false false false
+point 103.66277 37.81434 1.0 false false false
+point 104.47939 37.741314 1.0 false false false
+point 104.848694 36.771046 1.0 false false false
+point 104.6175 36.004116 1.0 false false false
+point 105.78591 36.075096 1.0 false false false
+point 104.47662 37.39868 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.57524985 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.15858325 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.73251516 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.15858325 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.15858325 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.15858325 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.15858325 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.15858325 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.15858325 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.15858325 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.15858325 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.15858325 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.15858325 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.15858325 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.7301322
+ids 1278 0 13466
+carnivore false
+point 151.82932 25.214352 1.0 false false true
+point 152.69228 25.828344 1.0 false false false
+point 152.48404 27.06667 1.0 false true false
+point 151.77856 26.323048 1.0 false false false
+point 151.60765 26.28754 1.0 false false false
+point 150.63306 25.8157 1.0 false false false
+point 150.81375 24.906534 1.0 false false false
+point 150.17264 24.509071 1.0 false false false
+point 149.41167 24.72774 1.0 false false false
+point 149.59308 23.513931 1.0 false false false
+point 151.03468 25.891035 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.59400815 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.17734158 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7512734 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.17734158 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.17734158 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.17734158 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.17734158 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.17734158 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.17734158 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.17734158 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.17734158 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.17734158 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.17734158 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.17734158 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.84751284
+ids 1140 0 13485
+carnivore true
+point 119.68772 49.120842 1.0 false false false
+point 119.080086 49.825912 1.0 false false false
+point 119.05012 48.713676 1.0 false false true
+point 119.70196 47.936653 1.0 false true false
+point 120.26408 49.246563 1.0 false false false
+point 121.0292 48.594925 1.0 false false false
+point 120.86947 49.3999 1.0 false false false
+point 121.677345 50.070175 1.0 false false false
+point 122.483765 49.98652 1.0 false false false
+point 122.16727 51.126457 1.0 false false false
+point 120.900566 49.08362 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.5859913 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.16932486 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7432566 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.16932486 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.16932486 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.16932486 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.16932486 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.16932486 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.16932486 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.16932486 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.16932486 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.16932486 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.16932486 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.16932486 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.89897573
+ids 1140 0 13520
+carnivore true
+point 154.28064 6.215398 1.0 false false false
+point 154.58626 5.406759 1.0 false false false
+point 155.12419 6.42213 1.0 false false true
+point 154.74733 7.365486 1.0 false true false
+point 153.69104 6.44966 1.0 false false false
+point 153.27495 7.2992244 1.0 false false false
+point 153.11247 6.6136346 1.0 false false false
+point 152.31975 6.101481 1.0 false false false
+point 151.47852 6.374027 1.0 false false false
+point 151.48656 5.117717 1.0 false false false
+point 153.10822 6.8911257 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6366634 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.21999685 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7939287 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.21999685 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.21999685 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.21999685 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.21999685 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.21999685 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.21999685 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.21999685 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.21999685 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.21999685 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.21999685 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.21999685 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.8679014
+ids 1140 0 13529
+carnivore true
+point 146.60931 6.488546 1.0 false false false
+point 146.65645 5.6626997 1.0 false false false
+point 147.44514 6.546285 1.0 false false true
+point 147.15627 7.514481 1.0 false true false
+point 146.14914 6.9185085 1.0 false false false
+point 145.88431 7.53353 1.0 false false false
+point 145.57901 6.8976383 1.0 false false false
+point 144.77495 6.8218527 1.0 false false false
+point 143.89594 7.4527235 1.0 false false false
+point 143.44933 5.949345 1.0 false false false
+point 145.43098 7.4729686 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.84956074 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.4328942 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.006826043 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.4328942 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.4328942 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.4328942 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.4328942 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.4328942 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.4328942 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.4328942 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.4328942 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.4328942 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.4328942 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.4328942 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.81047183
+ids 1140 0 13541
+carnivore true
+point 16.25103 7.964934 1.0 false false false
+point 15.4243555 8.432848 1.0 false false false
+point 15.791229 7.395001 1.0 false false true
+point 16.657888 6.866618 1.0 false true false
+point 16.713717 8.320661 1.0 false false false
+point 17.669495 7.92462 1.0 false false false
+point 17.223946 8.662864 1.0 false false false
+point 17.722054 9.605813 1.0 false false false
+point 18.491957 9.83371 1.0 false false false
+point 17.757202 10.758178 1.0 false false false
+point 17.365786 8.341177 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6019471 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.18528068 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7592124 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.18528068 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.18528068 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.18528068 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.18528068 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.18528068 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.18528068 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.18528068 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.18528068 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.18528068 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.18528068 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.18528068 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.8108699
+ids 1304 0 13542
+carnivore false
+point 83.48734 8.166462 1.0 false false true
+point 82.902405 8.714548 1.0 false false false
+point 82.13695 8.800549 1.0 false true false
+point 82.42504 7.9125347 1.0 false false false
+point 82.41744 7.6709714 1.0 false false false
+point 83.19839 7.0837436 1.0 false false false
+point 83.97427 7.593043 1.0 false false false
+point 84.62664 6.578865 1.0 false false false
+point 85.029144 5.4785156 1.0 false false false
+point 86.33723 6.566839 1.0 false false false
+point 84.050285 7.197875 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.9963259 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.57965946 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.15359123 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.57965946 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.57965946 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.57965946 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.57965946 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.57965946 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 0.7384635 5.0 0.5 0.2 1.0 0.57965946 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.57965946 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.57965946 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.57965946 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.57965946 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 0 1.1929079 5.0 0.5 0.2 1.0 0.57965946 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.15928502
+ids 1302 0 13549
+carnivore true
+point 23.988909 28.010511 1.0 false false true
+point 23.328224 27.010822 1.0 false false false
+point 24.01761 27.6513 1.0 false true false
+point 24.804392 28.241661 1.0 false false false
+point 23.158955 28.020294 1.0 false false false
+point 24.154255 28.952803 1.0 false false false
+point 23.587921 28.519732 1.0 false false false
+point 23.02551 29.414507 1.0 false false false
+point 23.130915 30.180904 1.0 false false false
+point 21.66552 30.09248 1.0 false false false
+point 23.140886 26.07374 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.97234976 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.5556832 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.12961507 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.5556832 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.5556832 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.5556832 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.5556832 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.5556832 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 0.7384635 5.0 0.5 0.2 1.0 0.5556832 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.5556832 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 0.7413704 5.0 0.5 0.2 0.17705649 0.5556832 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.5556832 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.5556832 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 10 1.1938224 5.0 0.5 0.2 1.0 0.5556832 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.024433136
+ids 1182 0 13573
+carnivore false
+point 20.940756 49.877243 1.0 false false true
+point 21.609522 50.397816 1.0 false false false
+point 22.697021 50.41858 1.0 false true false
+point 21.832296 50.568825 1.0 false false false
+point 22.01196 51.74006 1.0 false false false
+point 20.6524 51.30232 1.0 false false false
+point 20.27218 50.83868 1.0 false false false
+point 19.636044 51.551525 1.0 false false false
+point 19.473444 52.491688 1.0 false false false
+point 18.276926 51.853592 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.57950145 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.16283494 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7367667 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.16283494 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.16283494 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.16283494 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.16283494 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.16283494 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.16283494 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.16283494 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.16283494 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.16283494 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.16283494 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 12 15
+color 255.0 0.0 0.0
+phase 0.88388014
+ids 1308 0 13577
+carnivore true
+point 98.54338 77.31072 1.0 false false false
+point 97.959335 76.71721 1.0 false false false
+point 99.03262 77.173195 1.0 false false true
+point 99.53271 78.0723 1.0 false true false
+point 97.88581 78.04127 1.0 false false false
+point 98.27903 78.71949 1.0 false false false
+point 97.85016 78.27326 1.0 false false false
+point 96.98695 78.3466 1.0 false false false
+point 96.43501 79.089584 1.0 false false false
+point 95.68753 77.984436 1.0 false false false
+point 97.30048 78.61546 1.0 false false false
+point 97.44464 77.29208 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6985637 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.2818972 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.855829 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.2818972 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.2818972 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.2818972 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.2818972 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.2818972 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.2818972 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.2818972 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.2818972 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.2818972 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.2818972 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.2818972 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 11 1.0 5.0 0.5 0.2 0.49326187 0.2818972 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.7428576
+ids 1278 0 13581
+carnivore false
+point 45.058468 29.61081 1.0 false false true
+point 43.988243 30.147814 1.0 false false false
+point 44.794907 29.534176 1.0 false true false
+point 45.185795 30.665747 1.0 false false false
+point 45.18965 30.706251 1.0 false false false
+point 43.97474 30.211878 1.0 false false false
+point 44.037678 30.047018 1.0 false false false
+point 43.922905 30.809351 1.0 false false false
+point 44.41643 31.436478 1.0 false false false
+point 43.273148 31.775202 1.0 false false false
+point 44.46701 31.001986 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.70985955 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.293193 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.8671248 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.293193 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.293193 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.293193 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.293193 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.293193 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.293193 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.293193 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.293193 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.293193 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.293193 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.293193 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.93367773
+ids 1310 0 13583
+carnivore false
+point 88.15466 67.97088 1.0 false false false
+point 88.997086 67.93262 1.0 false false false
+point 88.11303 68.477974 1.0 false false true
+point 87.18623 68.3737 1.0 false true false
+point 87.92881 67.38587 1.0 false false false
+point 87.36417 67.289894 1.0 false false false
+point 88.42929 67.011566 1.0 false false false
+point 88.104965 66.13886 1.0 false false false
+point 87.940254 64.93104 1.0 false false false
+point 89.62597 65.3026 1.0 false false false
+point 87.58059 66.757515 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.9075167 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.49085018 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.050501395 1.0 0.06478202 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.49085018 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.49085018 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.49085018 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.49085018 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.49085018 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.49085018 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.49085018 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.49085018 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.49085018 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.49085018 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.49085018 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.7030771
+ids 1132 0 13595
+carnivore false
+point 93.615974 54.60926 1.0 false false false
+point 94.48741 55.40355 1.0 false false false
+point 94.28152 56.23269 1.0 false false true
+point 93.58481 55.50866 1.0 false true false
+point 93.4382 55.638454 1.0 false false false
+point 92.5851 54.94549 1.0 false false false
+point 92.73513 54.301662 1.0 false false false
+point 91.894295 53.97971 1.0 false false false
+point 91.03125 54.28974 1.0 false false false
+point 91.03695 52.937088 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.50490826 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.08824155 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.6621734 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.08824155 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.08824155 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.08824155 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.08824155 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.08824155 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.08824155 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.08824155 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.08824155 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.08824155 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.08824155 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.8655311
+ids 1132 0 13598
+carnivore false
+point 133.86598 18.155594 1.0 false false false
+point 134.01952 17.267649 1.0 false false false
+point 133.95161 16.112034 1.0 false false true
+point 133.93346 17.05226 1.0 false true false
+point 135.22946 16.432798 1.0 false false false
+point 135.22198 17.626127 1.0 false false false
+point 135.05925 17.985224 1.0 false false false
+point 135.87627 17.930962 1.0 false false false
+point 136.40678 17.29867 1.0 false false false
+point 136.9789 18.388329 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6256959 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.20902917 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.782961 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.20902917 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.20902917 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.20902917 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.20902917 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.20902917 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.20902917 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.20902917 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.20902917 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.20902917 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.20902917 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.06535939
+ids 1182 0 13601
+carnivore false
+point 54.131367 18.84882 1.0 false false true
+point 53.302265 18.974934 1.0 false false false
+point 52.39322 19.636137 1.0 false true false
+point 52.979733 18.939201 1.0 false false false
+point 52.128998 18.148106 1.0 false false false
+point 53.385082 17.572414 1.0 false false false
+point 54.04652 17.654022 1.0 false false false
+point 54.000107 16.753399 1.0 false false false
+point 53.499535 16.002022 1.0 false false false
+point 54.748425 15.675944 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.49330103 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.07663451 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.6505663 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.07663451 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.07663451 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.07663451 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.07663451 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.07663451 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.07663451 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.07663451 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.07663451 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.07663451 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.07663451 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.90681
+ids 1140 0 13604
+carnivore true
+point 44.67948 -1.8360612 1.0 false false false
+point 43.787376 -2.0346014 1.0 false false false
+point 44.77587 -2.5230901 1.0 false false true
+point 45.763264 -2.3516948 1.0 false true false
+point 44.81518 -1.1721834 1.0 false false false
+point 45.782185 -0.8653489 1.0 false false false
+point 44.970596 -0.65330017 1.0 false false false
+point 44.599926 0.31818262 1.0 false false false
+point 44.906494 1.0745888 1.0 false false false
+point 43.723755 1.0984191 1.0 false false false
+point 45.28504 -0.7010385 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.53584963 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.119183175 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.69311494 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.119183175 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.119183175 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.119183175 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.119183175 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.119183175 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.119183175 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.119183175 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.119183175 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.119183175 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.119183175 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.119183175 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.7668664
+ids 1182 0 13607
+carnivore false
+point 42.20382 62.854774 1.0 false false true
+point 43.131397 62.256382 1.0 false false false
+point 44.137875 62.911827 1.0 false true false
+point 43.14662 63.14262 1.0 false false false
+point 43.17612 63.378345 1.0 false false false
+point 42.245117 64.00362 1.0 false false false
+point 41.600975 63.609787 1.0 false false false
+point 40.97332 64.13505 1.0 false false false
+point 40.95061 64.98477 1.0 false false false
+point 39.774025 64.47537 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.4939817 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.07731496 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.6512469 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.07731496 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.07731496 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.07731496 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.07731496 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.07731496 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.07731496 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.07731496 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.07731496 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.07731496 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.07731496 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.5898427
+ids 1288 0 13608
+carnivore true
+point 10.318352 31.416931 1.0 false false false
+point 9.3932495 31.913832 1.0 false false false
+point 8.338529 31.76484 1.0 false false true
+point 9.226189 31.32891 1.0 false true false
+point 9.050325 30.730856 1.0 false false false
+point 9.959723 30.125317 1.0 false false false
+point 10.465839 30.4874 1.0 false false false
+point 10.893548 29.413809 1.0 false false false
+point 10.585006 28.6592 1.0 false false false
+point 11.763002 28.622131 1.0 false false false
+point 9.156594 30.1309 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.7947537 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.3780872 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.952019 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.3780872 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.3780872 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.3780872 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.3780872 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.3780872 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 0.7384635 5.0 0.5 0.2 1.0 0.3780872 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.3780872 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.3780872 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.3780872 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.3780872 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.3780872 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 12 15
+color 255.0 0.0 0.0
+phase 0.9188719
+ids 1308 0 13612
+carnivore true
+point 74.65136 12.268293 1.0 false false false
+point 74.410934 11.457156 1.0 false false false
+point 74.47157 10.29736 1.0 false false true
+point 75.0061 11.148889 1.0 false true false
+point 75.70352 11.057189 1.0 false false false
+point 76.06916 12.169948 1.0 false false false
+point 75.86914 12.6713505 1.0 false false false
+point 76.65436 13.266394 1.0 false false false
+point 77.52894 13.092953 1.0 false false false
+point 77.42123 14.325525 1.0 false false false
+point 76.347885 11.361275 1.0 false false false
+point 75.3211 11.394351 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6119773 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.19531077 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7692426 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.19531077 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.19531077 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.19531077 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.19531077 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.19531077 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.19531077 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.19531077 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.19531077 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.19531077 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.19531077 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.19531077 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 11 1.0 5.0 0.5 0.2 0.49326187 0.19531077 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.6828393
+ids 1314 0 13615
+carnivore false
+point 30.868774 37.6524 1.0 false false true
+point 30.186844 38.504738 1.0 false false false
+point 29.289097 37.70316 1.0 false true false
+point 30.036453 37.013435 1.0 false false false
+point 30.381947 37.386703 1.0 false false false
+point 31.055069 36.500957 1.0 false false false
+point 30.839111 36.62372 1.0 false false false
+point 31.056917 35.801067 1.0 false false false
+point 30.465307 35.182972 1.0 false false false
+point 31.657846 34.719925 1.0 false false false
+point 30.714687 36.359524 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.58533597 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.16866939 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7426012 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.16866939 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.16866939 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.16866939 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.16866939 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.16866939 0.55954385
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.16866939 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.16866939 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.16866939 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.16866939 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.16866939 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.16866939 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.9375247
+ids 1182 0 13620
+carnivore false
+point 83.86393 75.22176 1.0 false false true
+point 84.13973 76.03444 1.0 false false false
+point 85.03859 76.58674 1.0 false true false
+point 84.23613 76.274925 1.0 false false false
+point 83.821526 77.360085 1.0 false false false
+point 82.878456 76.24287 1.0 false false false
+point 82.820045 75.69715 1.0 false false false
+point 81.853806 75.94478 1.0 false false false
+point 81.1741 76.66808 1.0 false false false
+point 80.494194 75.43233 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6977611 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.2810945 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.85502636 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.2810945 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.2810945 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.2810945 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.2810945 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.2810945 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.2810945 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.2810945 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.2810945 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.2810945 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.2810945 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.9068437
+ids 1278 0 13623
+carnivore false
+point 146.09952 45.70047 1.0 false false true
+point 145.27257 45.84747 1.0 false false false
+point 144.70784 45.091866 1.0 false true false
+point 145.6029 44.71399 1.0 false false false
+point 146.10593 44.75945 1.0 false false false
+point 146.9482 44.62226 1.0 false false false
+point 147.06735 45.058144 1.0 false false false
+point 148.07735 44.782234 1.0 false false false
+point 148.49217 43.86151 1.0 false false false
+point 149.56822 44.790596 1.0 false false false
+point 146.51361 44.67713 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.7367565 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.32008994 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.89402175 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.32008994 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.32008994 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.32008994 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.32008994 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.32008994 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.32008994 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.32008994 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.32008994 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.32008994 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.32008994 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.32008994 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.6619664
+ids 1278 0 13624
+carnivore false
+point 117.66509 61.307423 1.0 false false true
+point 116.615654 61.07948 1.0 false false false
+point 115.60688 60.70594 1.0 false true false
+point 116.72127 60.788025 1.0 false false false
+point 116.336624 59.974957 1.0 false false false
+point 117.70805 60.234642 1.0 false false false
+point 118.36394 60.67219 1.0 false false false
+point 118.9525 60.059696 1.0 false false false
+point 119.17812 59.210102 1.0 false false false
+point 120.24275 59.968468 1.0 false false false
+point 117.23412 59.99042 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.5742425 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.15757588 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7315077 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.15757588 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.15757588 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.15757588 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.15757588 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.15757588 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.15757588 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.15757588 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.15757588 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.15757588 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.15757588 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.15757588 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.65069264
+ids 1288 0 13626
+carnivore true
+point 104.4478 81.74931 1.0 false false false
+point 105.24972 81.35006 1.0 false false false
+point 105.10071 82.45437 1.0 false false true
+point 104.23059 82.95735 1.0 false true false
+point 103.91621 81.6742 1.0 false false false
+point 103.01205 82.094765 1.0 false false false
+point 103.52496 81.52005 1.0 false false false
+point 102.79692 80.83079 1.0 false false false
+point 101.93586 80.87036 1.0 false false false
+point 102.265625 79.697716 1.0 false false false
+point 103.21167 81.75759 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.8515926 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.43492612 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.008857846 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.43492612 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.43492612 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.43492612 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.43492612 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.43492612 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 0.7384635 5.0 0.5 0.2 1.0 0.43492612 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.43492612 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.43492612 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.43492612 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.43492612 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.43492612 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.6790286
+ids 1278 0 13628
+carnivore false
+point 5.5454817 70.69753 1.0 false false true
+point 6.2893195 70.06965 1.0 false false false
+point 7.1553726 69.29097 1.0 false true false
+point 6.5615 70.17227 1.0 false false false
+point 7.48166 70.3875 1.0 false false false
+point 6.527722 71.43178 1.0 false false false
+point 5.320231 71.712204 1.0 false false false
+point 5.3871436 72.46158 1.0 false false false
+point 5.6360445 73.19753 1.0 false false false
+point 4.401136 73.10146 1.0 false false false
+point 6.796882 70.991905 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6307963 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.21412976 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.78806156 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.21412976 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.21412976 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.21412976 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.21412976 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.21412976 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.21412976 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.21412976 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.21412976 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.21412976 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.21412976 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.21412976 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.8637549
+ids 1140 0 13629
+carnivore true
+point 78.07105 69.69831 1.0 false false false
+point 77.22619 69.76791 1.0 false false false
+point 78.35724 69.7907 1.0 false false true
+point 79.2849 69.68711 1.0 false true false
+point 77.67765 71.06315 1.0 false false false
+point 78.691956 70.976456 1.0 false false false
+point 77.48387 70.75654 1.0 false false false
+point 77.151535 71.58124 1.0 false false false
+point 76.88702 72.49594 1.0 false false false
+point 75.78868 71.705215 1.0 false false false
+point 77.64643 71.96492 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.73012733 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.31346086 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.88739264 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.31346086 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.31346086 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.31346086 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.31346086 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.31346086 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.31346086 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.31346086 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.31346086 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.31346086 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.31346086 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.31346086 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.9443119
+ids 1140 0 13630
+carnivore true
+point 99.293724 24.59741 1.0 false false false
+point 99.25282 25.456179 1.0 false false false
+point 98.47281 24.540844 1.0 false false true
+point 98.73411 23.507757 1.0 false true false
+point 99.87032 24.251675 1.0 false false false
+point 100.1475 23.42763 1.0 false false false
+point 100.30047 23.9131 1.0 false false false
+point 101.180374 24.074163 1.0 false false false
+point 101.823395 23.428034 1.0 false false false
+point 102.42666 24.582832 1.0 false false false
+point 100.42326 23.662891 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.62583154 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.20916507 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.78309685 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.20916507 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.20916507 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.20916507 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.20916507 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.20916507 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.20916507 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.20916507 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.20916507 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.20916507 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.20916507 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.20916507 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.7413369
+ids 1132 0 13631
+carnivore false
+point 99.77974 36.492504 1.0 false false false
+point 100.66195 35.723034 1.0 false false false
+point 101.40505 35.391518 1.0 false false true
+point 100.67538 36.16785 1.0 false true false
+point 101.53326 36.400414 1.0 false false false
+point 100.42302 37.313942 1.0 false false false
+point 99.9977 37.407387 1.0 false false false
+point 100.11931 38.302128 1.0 false false false
+point 100.83357 38.881996 1.0 false false false
+point 99.672165 39.581493 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.46319062 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.046523888 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.62045574 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.046523888 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.046523888 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.046523888 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.046523888 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.046523888 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.046523888 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.046523888 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.046523888 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.046523888 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.046523888 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.16873717
+ids 1228 0 13632
+carnivore false
+point 127.253944 56.13623 1.0 false false true
+point 126.2614 55.73228 1.0 false false false
+point 125.55744 55.399815 1.0 false true false
+point 126.59447 55.477566 1.0 false false false
+point 126.46787 54.838726 1.0 false false false
+point 127.54526 55.26631 1.0 false false false
+point 127.76604 55.375385 1.0 false false false
+point 128.74648 54.536064 1.0 false false false
+point 129.12979 53.36435 1.0 false false false
+point 130.5263 54.3806 1.0 false false false
+point 126.949615 56.13679 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.7648941 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.3482275 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.9221595 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.3482275 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.3482275 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.3482275 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.3482275 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.3482275 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.3482275 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.3482275 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.3482275 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.3482275 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.3482275 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 10 1.0 5.0 0.5 0.2 1.0 0.3482275 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.95762074
+ids 1132 0 13633
+carnivore false
+point 131.65665 17.421661 1.0 false false false
+point 130.78165 17.431404 1.0 false false false
+point 129.85036 18.101562 1.0 false false true
+point 130.4982 17.492252 1.0 false true false
+point 129.52275 16.668087 1.0 false false false
+point 130.90787 16.139511 1.0 false false false
+point 131.8861 16.23863 1.0 false false false
+point 132.5271 15.70748 1.0 false false false
+point 132.91566 14.9747715 1.0 false false false
+point 133.71118 15.919974 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.5360504 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.11938366 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.6933155 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.11938366 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.11938366 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.11938366 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.11938366 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.11938366 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.11938366 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.11938366 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.11938366 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.11938366 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.11938366 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.78570074
+ids 1140 0 13634
+carnivore true
+point 30.788195 44.769634 1.0 false false false
+point 31.19291 43.977367 1.0 false false false
+point 31.633732 45.005665 1.0 false false true
+point 31.185366 45.906555 1.0 false true false
+point 30.226645 44.97615 1.0 false false false
+point 29.69298 45.803978 1.0 false false false
+point 29.565895 44.74512 1.0 false false false
+point 28.612373 44.66045 1.0 false false false
+point 27.851505 45.00952 1.0 false false false
+point 27.775038 43.7805 1.0 false false false
+point 29.664186 45.375477 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.71351236 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.2968459 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.87077767 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.2968459 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.2968459 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.2968459 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.2968459 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.2968459 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.2968459 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.2968459 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.2968459 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.2968459 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.2968459 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.2968459 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.8683664
+ids 1278 0 13637
+carnivore false
+point 54.56309 36.20963 1.0 false false true
+point 55.119648 35.579945 1.0 false false false
+point 55.372704 34.421032 1.0 false true false
+point 55.10199 35.282944 1.0 false false false
+point 56.520836 35.193817 1.0 false false false
+point 56.02554 36.344784 1.0 false false false
+point 55.57135 36.8381 1.0 false false false
+point 56.37422 37.254723 1.0 false false false
+point 57.27845 37.180897 1.0 false false false
+point 56.94591 38.446995 1.0 false false false
+point 55.762363 35.77168 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6990868 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.2824202 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.85635203 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.2824202 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.2824202 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.2824202 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.2824202 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.2824202 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.2824202 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.2824202 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.2824202 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.2824202 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.2824202 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.2824202 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 12 15
+color 0.0 0.0 255.0
+phase 0.97858936
+ids 1315 0 13639
+carnivore false
+point 47.450417 75.67521 1.0 false false false
+point 48.21224 75.9704 1.0 false false false
+point 49.080715 76.746994 1.0 false false true
+point 48.062645 76.652176 1.0 false true false
+point 47.696026 77.21246 1.0 false false false
+point 46.611336 76.8086 1.0 false false false
+point 46.348663 76.30949 1.0 false false false
+point 45.424477 76.47881 1.0 false false false
+point 44.952553 77.28768 1.0 false false false
+point 44.038776 76.36757 1.0 false false false
+point 46.971016 77.55793 1.0 false false false
+point 47.7319 76.62729 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6004318 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.1837653 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7576971 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.1837653 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.1837653 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.1837653 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.1837653 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.1837653 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.1837653 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.1837653 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.1837653 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 2 -0.6592994 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.1837653 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.1837653 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.1837653 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 11 1.0 5.0 0.5 0.2 0.49326187 0.1837653 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.75372976
+ids 1182 0 13640
+carnivore false
+point 35.22848 1.333141 1.0 false false true
+point 35.319042 0.16139723 1.0 false false false
+point 36.400566 -0.031967774 1.0 false true false
+point 35.981274 0.94537014 1.0 false false false
+point 36.132523 0.9217315 1.0 false false false
+point 35.937336 2.0448966 1.0 false false false
+point 35.33542 2.1936917 1.0 false false false
+point 35.368904 3.1297755 1.0 false false false
+point 36.078236 3.7698624 1.0 false false false
+point 34.8559 4.438588 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.42750704 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.010840306 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.5847723 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.010840306 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.010840306 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.010840306 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.010840306 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.010840306 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.010840306 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.010840306 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.010840306 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.010840306 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.010840306 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.8548967
+ids 1140 0 13641
+carnivore true
+point 153.32187 79.614494 1.0 false false false
+point 154.00021 80.23106 1.0 false false false
+point 154.28206 81.36716 1.0 false false true
+point 153.47858 80.79369 1.0 false true false
+point 152.89629 81.03485 1.0 false false false
+point 152.06924 80.310745 1.0 false false false
+point 152.0446 79.78522 1.0 false false false
+point 151.00996 79.72668 1.0 false false false
+point 150.354 80.29068 1.0 false false false
+point 149.8764 79.19077 1.0 false false false
+point 152.2294 81.06859 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.63485605 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.21818954 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.79212135 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.21818954 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.21818954 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.21818954 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.21818954 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.21818954 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.21818954 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.21818954 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.21818954 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.21818954 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.21818954 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.21818954 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 12 15
+color 0.0 0.0 255.0
+phase 0.90500337
+ids 1316 0 13642
+carnivore false
+point 2.8867908 41.171764 1.0 false false true
+point 2.9049463 42.03099 1.0 false false false
+point 3.353064 42.95254 1.0 false true false
+point 2.7717667 42.300034 1.0 false false false
+point 1.9380012 42.964005 1.0 false false false
+point 1.5783806 41.606564 1.0 false false false
+point 1.9054879 40.567448 1.0 false false false
+point 1.0952601 39.93108 1.0 false false false
+point 0.12009712 39.642868 1.0 false false false
+point 0.9142573 38.45932 1.0 false false false
+point 1.8861672 42.022106 1.0 false false false
+point 0.2232555 37.723995 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.740443 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.32377636 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.89770824 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.32377636 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.32377636 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.32377636 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.32377636 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.32377636 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 0.030878663 0.32377636 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.32377636 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.32377636 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.32377636 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.32377636 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.32377636 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 11 1.0 5.0 0.5 0.2 0.17705649 0.32377636 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.14294636
+ids 1182 0 13644
+carnivore false
+point 141.30557 48.75827 1.0 false false true
+point 140.5777 48.22725 1.0 false false false
+point 139.59053 48.214054 1.0 false true false
+point 140.45728 48.115078 1.0 false false false
+point 140.09387 47.050407 1.0 false false false
+point 141.56061 47.4742 1.0 false false false
+point 141.79459 47.776703 1.0 false false false
+point 142.58746 47.015217 1.0 false false false
+point 142.7995 45.951664 1.0 false false false
+point 144.15369 46.73515 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.5716693 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.15500277 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7289345 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.15500277 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.15500277 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.15500277 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.15500277 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.15500277 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.15500277 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.15500277 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.15500277 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.15500277 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.15500277 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.750674
+ids 1132 0 13645
+carnivore false
+point 68.00357 9.920738 1.0 false false false
+point 68.68401 9.018597 1.0 false false false
+point 69.59838 9.077507 1.0 false false true
+point 69.049995 9.894943 1.0 false true false
+point 69.0138 10.088755 1.0 false false false
+point 68.5448 11.042181 1.0 false false false
+point 67.990715 10.973565 1.0 false false false
+point 67.86025 11.782979 1.0 false false false
+point 68.35701 12.449683 1.0 false false false
+point 67.1361 12.753923 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.53364235 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.116975605 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.6909075 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.116975605 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.116975605 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.116975605 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.116975605 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.116975605 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.116975605 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.116975605 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.116975605 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.116975605 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.116975605 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.81093633
+ids 1278 0 13647
+carnivore false
+point 136.75967 76.43058 1.0 false false true
+point 135.52359 76.47712 1.0 false false false
+point 136.48466 76.19839 1.0 false true false
+point 136.37306 77.39392 1.0 false false false
+point 136.408 77.43382 1.0 false false false
+point 135.4967 76.46956 1.0 false false false
+point 135.72966 76.714775 1.0 false false false
+point 135.07022 76.96604 1.0 false false false
+point 135.35422 77.72086 1.0 false false false
+point 134.16438 77.615074 1.0 false false false
+point 135.6019 77.24892 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6169764 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.20030977 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7742416 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.20030977 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.20030977 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.20030977 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.20030977 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.20030977 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.20030977 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.20030977 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.20030977 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.20030977 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.20030977 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.20030977 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.9488213
+ids 1140 0 13649
+carnivore true
+point 63.726482 7.8271046 1.0 false false false
+point 64.52461 7.9791617 1.0 false false false
+point 63.550106 8.471083 1.0 false false true
+point 62.666214 8.126468 1.0 false true false
+point 63.45495 7.242399 1.0 false false false
+point 62.954056 6.988523 1.0 false false false
+point 63.97008 6.8075495 1.0 false false false
+point 63.779823 5.9605484 1.0 false false false
+point 63.507168 4.826984 1.0 false false false
+point 65.17616 5.0071406 1.0 false false false
+point 63.155083 6.491619 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.84147006 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.42480353 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.99873537 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.42480353 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.42480353 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.42480353 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.42480353 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.42480353 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.42480353 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.42480353 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.42480353 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.42480353 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.42480353 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.42480353 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.12938395
+ids 1182 0 13650
+carnivore false
+point 155.4296 3.1740553 1.0 false false true
+point 155.57678 4.017473 1.0 false false false
+point 156.39072 4.7160907 1.0 false true false
+point 155.64772 4.272791 1.0 false false false
+point 155.04614 5.292382 1.0 false false false
+point 154.29425 4.052487 1.0 false false false
+point 154.31784 3.4896975 1.0 false false false
+point 153.34271 3.592975 1.0 false false false
+point 152.57875 4.2030373 1.0 false false false
+point 152.09149 2.901635 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.49309683 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.076430306 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.6503621 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.076430306 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.076430306 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.076430306 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.076430306 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.076430306 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.076430306 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.076430306 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.076430306 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.076430306 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.076430306 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.93996537
+ids 1140 0 13651
+carnivore true
+point 76.55248 45.143196 1.0 false false false
+point 75.89125 45.66971 1.0 false false false
+point 75.83218 44.477036 1.0 false false true
+point 76.69654 43.8962 1.0 false true false
+point 77.11966 45.13125 1.0 false false false
+point 77.92283 44.650826 1.0 false false false
+point 77.76651 45.312187 1.0 false false false
+point 78.368004 45.993793 1.0 false false false
+point 79.28848 45.931217 1.0 false false false
+point 78.98816 47.20531 1.0 false false false
+point 77.90617 44.98494 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.63438654 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.21772006 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.79165184 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.21772006 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.21772006 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.21772006 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.21772006 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.21772006 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.21772006 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.21772006 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.21772006 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.21772006 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.21772006 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.21772006 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.78682846
+ids 1132 0 13653
+carnivore false
+point 8.147683 35.47155 1.0 false false false
+point 9.226615 35.225765 1.0 false false false
+point 9.962116 35.849552 1.0 false false true
+point 9.017969 36.14774 1.0 false true false
+point 8.813497 36.311417 1.0 false false false
+point 7.867786 36.76387 1.0 false false false
+point 7.478203 36.35123 1.0 false false false
+point 6.893689 36.89256 1.0 false false false
+point 6.883204 37.697353 1.0 false false false
+point 5.7675457 37.19598 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.5365963 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.11992961 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.6938614 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.11992961 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.11992961 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.11992961 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.11992961 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.11992961 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.11992961 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.11992961 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.11992961 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.11992961 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.11992961 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.07989113
+ids 1228 0 13654
+carnivore false
+point 51.969166 9.434049 1.0 false false true
+point 52.826714 10.052144 1.0 false false false
+point 53.434444 10.568509 1.0 false true false
+point 52.452736 10.242013 1.0 false false false
+point 52.40758 10.907537 1.0 false false false
+point 51.46005 10.223291 1.0 false false false
+point 51.301308 10.083031 1.0 false false false
+point 50.13827 10.642742 1.0 false false false
+point 49.489525 11.691434 1.0 false false false
+point 48.369617 10.367649 1.0 false false false
+point 52.267273 9.443132 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.8307874 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.4141208 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.9880528 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.4141208 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.4141208 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.4141208 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.4141208 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.4141208 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.4141208 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.4141208 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.4141208 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.4141208 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.4141208 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 10 1.0 5.0 0.5 0.2 1.0 0.4141208 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 12 15
+color 255.0 0.0 0.0
+phase 0.87115043
+ids 1317 0 13655
+carnivore true
+point 103.081665 13.611572 1.0 false false false
+point 103.79552 13.033419 1.0 false false false
+point 103.50967 14.095886 1.0 false false true
+point 102.7414 14.741432 1.0 false true false
+point 102.47635 13.249181 1.0 false false false
+point 101.61406 13.810443 1.0 false false false
+point 102.087204 12.926296 1.0 false false false
+point 101.524345 12.037121 1.0 false false false
+point 100.79452 11.690241 1.0 false false false
+point 101.63426 10.868211 1.0 false false false
+point 101.83752 13.143931 1.0 false false false
+point 101.82502 13.066218 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.5614446 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.14477804 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7187099 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.14477804 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.14477804 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.14477804 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.14477804 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.14477804 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.14477804 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.14477804 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.14477804 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.14477804 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.14477804 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.14477804 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 11 0 1.1929079 5.0 0.5 0.2 1.0 0.14477804 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+creature_end
+creature_start 12 15
+color 0.0 0.0 255.0
+phase 0.9062116
+ids 1318 0 13656
+carnivore false
+point 104.47008 44.029305 1.0 false false false
+point 103.64969 43.730972 1.0 false false false
+point 104.720314 43.301193 1.0 false false true
+point 105.63629 43.756832 1.0 false true false
+point 104.62424 44.728523 1.0 false false false
+point 105.39827 45.209347 1.0 false false false
+point 104.45692 45.230267 1.0 false false false
+point 104.10507 46.06934 1.0 false false false
+point 104.225044 46.940815 1.0 false false false
+point 102.97953 46.685192 1.0 false false false
+point 104.820564 45.433987 1.0 false false false
+point 104.69765 45.418957 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.63409007 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.21742353 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7913554 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.21742353 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.21742353 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.21742353 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.21742353 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.21742353 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.21742353 0.03005755
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.69103193 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.21742353 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.21742353 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.21742353 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.21742353 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.21742353 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 11 0 1.1929079 5.0 0.5 0.2 1.0 0.21742353 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.78618115
+ids 1182 0 13657
+carnivore false
+point 109.510284 71.294044 1.0 false false true
+point 108.61001 71.80158 1.0 false false false
+point 107.56913 72.310036 1.0 false true false
+point 108.459366 71.68736 1.0 false false false
+point 107.5537 71.19624 1.0 false false false
+point 108.696236 70.425415 1.0 false false false
+point 109.34744 70.2594 1.0 false false false
+point 109.290535 69.47949 1.0 false false false
+point 108.725555 68.90241 1.0 false false false
+point 109.893135 68.46045 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.5097991 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.093132384 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.6670643 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.093132384 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.093132384 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.093132384 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.093132384 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.093132384 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.093132384 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.093132384 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.093132384 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.093132384 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.093132384 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.02504735
+ids 1182 0 13659
+carnivore false
+point 139.07848 31.360302 1.0 false false true
+point 139.36243 30.603394 1.0 false false false
+point 139.46156 29.570848 1.0 false true false
+point 139.75053 30.450464 1.0 false false false
+point 140.71727 30.332611 1.0 false false false
+point 140.47258 31.63679 1.0 false false false
+point 139.9834 32.111122 1.0 false false false
+point 140.70131 32.772793 1.0 false false false
+point 141.65309 32.939423 1.0 false false false
+point 141.0431 34.140495 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.5816576 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.16499107 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.73892283 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.16499107 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.16499107 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.16499107 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.16499107 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.16499107 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.16499107 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.16499107 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.16499107 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.16499107 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.16499107 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.768477
+ids 1278 0 13660
+carnivore false
+point 70.721344 39.568817 1.0 false false true
+point 69.866646 39.83839 1.0 false false false
+point 68.87415 40.533794 1.0 false true false
+point 69.546295 39.798733 1.0 false false false
+point 68.67934 39.24927 1.0 false false false
+point 69.89324 38.464478 1.0 false false false
+point 71.19284 38.53701 1.0 false false false
+point 71.26441 37.792194 1.0 false false false
+point 71.39785 37.064205 1.0 false false false
+point 72.40599 37.719913 1.0 false false false
+point 69.52396 38.99746 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.6215367 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.20487007 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7788019 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.20487007 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.20487007 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.20487007 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.20487007 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.20487007 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.20487007 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.20487007 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.20487007 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.20487007 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.20487007 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.20487007 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.80758476
+ids 1140 0 13661
+carnivore true
+point 9.199379 36.601357 1.0 false false false
+point 10.197575 36.497826 1.0 false false false
+point 9.306761 37.06534 1.0 false false true
+point 8.274334 37.15067 1.0 false true false
+point 9.186889 35.827106 1.0 false false false
+point 8.092885 35.802845 1.0 false false false
+point 8.923592 35.524914 1.0 false false false
+point 9.215764 34.446987 1.0 false false false
+point 9.034843 33.669456 1.0 false false false
+point 10.220611 33.84553 1.0 false false false
+point 8.738009 35.409252 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.5342353 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.11756887 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.69150054 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.11756887 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.11756887 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.11756887 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.11756887 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.11756887 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.11756887 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.11756887 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.11756887 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.11756887 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.11756887 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.11756887 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.77397525
+ids 1132 0 13662
+carnivore false
+point 85.45604 20.295597 1.0 false false false
+point 84.55757 20.841608 1.0 false false false
+point 83.97722 21.442083 1.0 false false true
+point 85.02588 21.317677 1.0 false true false
+point 83.50597 20.289686 1.0 false false false
+point 84.25291 20.56575 1.0 false false false
+point 84.60965 19.747423 1.0 false false false
+point 84.04561 19.178724 1.0 false false false
+point 83.21751 19.195133 1.0 false false false
+point 83.66095 18.024399 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.5117322 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.09506549 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.66899735 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.09506549 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.09506549 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.09506549 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.09506549 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.09506549 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.09506549 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.09506549 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.09506549 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.09506549 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.09506549 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.8407648
+ids 1182 0 13663
+carnivore false
+point 123.86673 74.76569 1.0 false false true
+point 124.92518 74.78461 1.0 false false false
+point 125.73695 75.69661 1.0 false true false
+point 124.72861 75.428375 1.0 false false false
+point 124.64138 75.94427 1.0 false false false
+point 123.49668 75.96084 1.0 false false false
+point 122.975426 75.36309 1.0 false false false
+point 122.22299 75.56617 1.0 false false false
+point 121.92703 76.31538 1.0 false false false
+point 121.06733 75.41638 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.46676984 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.050103113 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.6240351 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.050103113 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.050103113 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.050103113 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.050103113 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.050103113 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.050103113 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.050103113 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.050103113 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.050103113 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.050103113 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.85874605
+ids 1304 0 13664
+carnivore false
+point 8.91494 58.749187 1.0 false false true
+point 8.168716 59.038113 1.0 false false false
+point 7.367664 59.03134 1.0 false true false
+point 7.9329343 58.294495 1.0 false false false
+point 7.824504 57.96364 1.0 false false false
+point 8.82931 57.615826 1.0 false false false
+point 9.44064 58.216343 1.0 false false false
+point 10.224078 57.311222 1.0 false false false
+point 10.425185 56.162586 1.0 false false false
+point 11.897514 57.01669 1.0 false false false
+point 9.601279 57.85601 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.9406075 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.52394104 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.09787282 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.52394104 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.52394104 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.52394104 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.52394104 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.52394104 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 0.7384635 5.0 0.5 0.2 1.0 0.52394104 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.52394104 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.52394104 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.52394104 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.52394104 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 0 1.1929079 5.0 0.5 0.2 1.0 0.52394104 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.7651819
+ids 1278 0 13665
+carnivore false
+point 80.58977 40.739555 1.0 false false true
+point 80.04119 41.43626 1.0 false false false
+point 79.538895 42.551334 1.0 false true false
+point 79.721825 41.596817 1.0 false false false
+point 78.65077 41.511646 1.0 false false false
+point 79.31147 40.22679 1.0 false false false
+point 79.90209 39.718246 1.0 false false false
+point 80.42134 39.09097 1.0 false false false
+point 79.82372 38.544563 1.0 false false false
+point 80.93065 38.06733 1.0 false false false
+point 79.36403 40.893364 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.65998197 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.24331538 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.8172472 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.24331538 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.24331538 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.24331538 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.24331538 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.24331538 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.24331538 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.24331538 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.24331538 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.24331538 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.24331538 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.24331538 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 11 14
+color 0.0 0.0 255.0
+phase 0.77586657
+ids 1278 0 13666
+carnivore false
+point 61.102203 49.411755 1.0 false false true
+point 61.975998 48.79916 1.0 false false false
+point 63.102394 49.291435 1.0 false true false
+point 62.15056 49.70457 1.0 false false false
+point 62.19185 49.94367 1.0 false false false
+point 61.371967 50.671074 1.0 false false false
+point 60.576473 50.313976 1.0 false false false
+point 60.03641 50.85841 1.0 false false false
+point 60.09875 51.65856 1.0 false false false
+point 58.931423 51.233967 1.0 false false false
+point 61.54899 50.332092 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.53077227 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.11410568 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.6880375 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.11410568 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.11410568 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.11410568 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.11410568 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.11410568 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.11410568 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.11410568 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.11410568 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.11410568 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.11410568 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 3 10 1.0 5.0 0.5 0.2 0.17705649 0.11410568 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+creature_end
+creature_start 10 13
+color 0.0 0.0 255.0
+phase 0.07932009
+ids 1319 0 13667
+carnivore false
+point 49.882782 74.44474 1.0 false false true
+point 49.010887 74.321 1.0 false false false
+point 48.090244 74.77813 1.0 false true false
+point 48.80708 74.321106 1.0 false false false
+point 48.048767 73.42462 1.0 false false false
+point 49.440872 73.15673 1.0 false false false
+point 50.025673 73.31952 1.0 false false false
+point 50.468304 72.35762 1.0 false false false
+point 49.916744 71.48939 1.0 false false false
+point 51.396843 71.43102 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.59885436 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.59145486 0.18218783 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.7561196 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.18218783 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.18218783 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.18218783 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.18218783 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.18218783 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.18218783 0.0
+sensor -0.5114345 -0.85932225 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.17705649 0.18218783 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.18218783 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.18218783 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.7671968 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
+creature_start 11 14
+color 255.0 0.0 0.0
+phase 0.862405
+ids 1140 0 13668
+carnivore true
+point 21.638487 31.896734 1.0 false false false
+point 21.361074 31.12301 1.0 false false false
+point 22.454172 31.619633 1.0 false false true
+point 22.61443 32.663616 1.0 false true false
+point 21.302242 32.47497 1.0 false false false
+point 21.330301 33.28226 1.0 false false false
+point 20.945171 32.88067 1.0 false false false
+point 20.070671 33.01437 1.0 false false false
+point 19.612108 33.821693 1.0 false false false
+point 18.715418 32.84769 1.0 false false false
+point 20.847687 33.191677 1.0 false false false
+segment 0 1 1.0 5.0 0.5 0.2 1.0 0.72079146 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 1 2 1.0 5.0 0.5 0.2 0.08420229 0.304125 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 3 2 1.0 5.0 0.5 0.041354835 1.0 0.87805676 1.0
+sensor 0.37331545 -0.92770445 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 0 3 1.0 5.0 0.5 0.2 1.0 0.304125 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 4 1 1.1938224 5.0 0.5 0.2 1.0 0.304125 1.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 4 2 1.1938224 5.0 0.5 0.2 1.0 0.304125 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 2
+controller 0 2 0.10953526 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 0 1.1929079 5.0 0.5 0.2 1.0 0.304125 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 5 3 1.1929079 5.0 0.5 0.2 1.0 0.304125 1.0
+sensor -0.76604444 -0.64278764 1.7968363 0.7482112 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 -0.27527857 -1
+segment 6 0 1.0 5.0 0.5 0.2 1.0 0.304125 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 2 -0.043058395 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 7 6 1.0 5.0 0.5 0.2 0.49326187 0.304125 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 8 7 1.0 5.0 0.5 0.2 0.17705649 0.304125 0.0
+sensor -0.76604444 0.64278764 3.0 1.7 2
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 2 0.80077326 -1
+segment 9 8 1.4589953 5.0 0.5 0.2 0.17705649 0.304125 0.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 9 7 1.4589953 5.0 0.5 0.2 0.17705649 0.304125 0.0
+sensor -0.76604444 -0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+segment 10 4 0.7111897 5.0 0.5 0.2 1.0 0.304125 1.0
+sensor -0.76604444 0.64278764 1.7968363 1.7 0
+controller 0 1 0.0 -1
+controller 1 1 0.0 -1
+controller 2 1 0.0 -1
+creature_end
