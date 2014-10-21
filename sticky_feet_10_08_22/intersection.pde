@@ -58,7 +58,7 @@ void check_eating()
     
     if(counter - c1.hunger_time > c1.starvation)
       {
-        println("Creature death due to starvation");
+        //println("Creature death due to starvation"); // NOTE: commented
         creatures.remove(i);
         
         // Uncomment this section if you want a plant to spawn when a creature dies
@@ -149,18 +149,15 @@ void check_eating()
            plants.remove(j);
            if(true)//creatures.size()<=105)
            {
-             c1.hunger = 2;
+             c1.hunger = c1.maxHerbivoreHunger;
            
              //println("added to the list of herbivore births");
              herbivore_births.add(c1);
            }
          }
        }
-       
       }
-       
    }
-   
   }
     
   // nothing more to do here if there were no crossing events
@@ -181,7 +178,7 @@ void check_eating()
   for(i = 0; i <herbivore_births.size(); i ++)
   {
     birth_queue.add(herbivore_births.get(i));
-    println("herbivore birth addded to birth queue");
+    //println("herbivore birth addded to birth queue"); // NOTE: commented out
   }
   // clear it once it's done
   herbivore_births = new ArrayList();
@@ -204,12 +201,14 @@ void check_eating()
       if(!fast_flag)
       kill_list.add(e);            // add this event to the list of kills
       
+      /*
       if(plants.size()<=101)
       {
-      /*plant p = new plant(); // a plant is added upon creature death to balance the amount of energy in the environment
+      plant p = new plant(); // a plant is added upon creature death to balance the amount of energy in the environment
        p.drop_plant(random (world_width), random (world_height));
-       plants.add(p);*/      
+       plants.add(p);   
       }
+      */
       
       // note that c1 is now the birth representative for its group
       group_representative[e.c1.group_id] = e.c1;
@@ -225,7 +224,7 @@ void check_eating()
           e.c1.hunger--;
           if(e.c2.hunger == 0)
           {
-            println("predator birth added to queue");
+            //println("predator birth added to queue"); // NOTE: commented out
             if (e.c1.group_id == e.c2.group_id)
               birth_queue.add (e.c1);                    // add c1 to birth queue if c1 and c2 are in same group
             else
@@ -235,7 +234,7 @@ void check_eating()
       }   // add representative of c2's group if not from same group
       else
       {
-        e.c1.hunger=0;
+        e.c1.hunger = e.c1.maxCarnivoreHunger; // NOTE: original was 0
       }
       
     }

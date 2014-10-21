@@ -166,15 +166,15 @@ void mutate_creature_once(creature c)
   // select one of the mutation types at random
   switch (pick_from_probabilities()) {
     case 0:
-      println ("mutating topology");
+      //println ("mutating topology"); // NOTE: commented
       mutate_topology(c);
       break;
     case 1:
-      println ("mutating behavior");
+      //println ("mutating behavior"); // NOTE: commented
       mutate_behavior(c);
       break;
     case 2:
-      println ("mutating a segment");
+      //println ("mutating a segment"); // NOTE: commented
       mutate_one_segment(c);
       break;
     default:
@@ -299,11 +299,18 @@ void mutate_behavior(creature c)
     case 4:
       s.sensor_dist = random (0.5, 6.0);  
       break;
-    case 5:
+    case 5: 
       if (s.sensor_type == SENSOR_HEART)
+      {
+        // TODO: what about plant sensor?
         s.sensor_type = SENSOR_MOUTH;
+        //c.carnivore = false; // NOTE: modified by Sheldon
+      }
       else
+      {
         s.sensor_type = SENSOR_HEART;
+        //c.carnivore = true; // NOTE: modified by Sheldon
+      }
       break;
     case 6:
       s.controllers[CONTROL_AMP].type = CONTROLLER_SENSOR;

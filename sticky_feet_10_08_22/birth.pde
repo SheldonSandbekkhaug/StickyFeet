@@ -41,6 +41,16 @@ boolean birth (creature parent, int num_tries, boolean mutate_okay)
   if (child.phase < 0) child.phase += 1;
   if (child.phase > 1) child.phase -= 1;
   
+  // Set child's hunger NOTE: added by Sheldon
+  if (child.carnivore == true)
+  {
+    child.hunger = child.maxCarnivoreHunger; 
+  }
+  else
+  {
+    child.hunger = child.maxHerbivoreHunger;
+  }
+  
   // calculate bounding boxes for all creatures
   for (i = 0; i < creatures.size(); i++) {
     c = (creature) creatures.get(i);

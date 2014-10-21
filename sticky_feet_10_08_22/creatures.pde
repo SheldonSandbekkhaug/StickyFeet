@@ -160,10 +160,11 @@ class creature {
   int snum,smax;
   segment[] segments;   // segments that connect the points
   
-  int hunger = 2;      // only relevant to herbivores (NOTE: carnivores have hunger too)
+  int maxHerbivoreHunger = 1;
+  int maxCarnivoreHunger = 2;
+  int hunger = maxHerbivoreHunger;      // only relevant to herbivores (NOTE: carnivores have hunger too)
   
-  //  bounding box for creature
-  
+  //  bounding box for creature  
   float xmin,xmax;
   float ymin,ymax;
   
@@ -427,7 +428,6 @@ class creature {
       float py = y1 + coef * (y2 - y1);
       
       // maybe show the sensor position
-//      if (sensor_show_flag && s.sensor_value > 0) {
       if (sensor_show_flag && s.sensor_dist > 0) {
         float rot_dx = s.sensor_dist * (dx * s.sensor_cos - dy * s.sensor_sin);
         float rot_dy = s.sensor_dist * (dx * s.sensor_sin + dy * s.sensor_cos);
@@ -537,6 +537,7 @@ class creature {
       float ph = s.phase + phase;
       float sin_theta = sin(time * s.freq + ph * 2 * PI);
       float cos_theta = cos(time * s.freq + ph * 2 * PI);
+      
       if (s.amp != 0) {
         rest_length += amp * s.length * sin_theta;
       }
@@ -649,7 +650,6 @@ class creature {
       p.vy = p.vy + dt * p.ay;
       p.x = p.x + dt * (p.vx + vx_old) * 0.5;
       p.y = p.y + dt * (p.vy + vy_old) * 0.5;
-      
     }
   }
   
