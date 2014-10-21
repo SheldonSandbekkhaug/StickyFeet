@@ -10,14 +10,17 @@
 
 import processing.opengl.*;
 
-float sx = 1500;              // width of simulation region
-float sy = 775;               // height
+boolean headless = false; // True if you want to run without rendering
+boolean fast_flag = false; // NOTE: originally was false
+
+float sx = 800; // Option: 1500
+float sy = 600; // Option: 775
 
 int target_creature_count = 100;
 int num_groups = 1;
 creature[] group_representative = new creature[num_groups];
-
-float world_width =155;       // width of the world in creature units
+  
+float world_width = 70; // width of the world in creature units. Often-used alternative is 155
 float world_height = world_width * sy / sx;
 int stroke_width = 1;         // width of drawn line segments
 
@@ -45,6 +48,7 @@ int auto_write_count = 200000;   // number of timesteps between automatic file w
 int world_seed = 0;              // random number seed for the world
 
 int startplants = 100;
+int maxPlants = 100;
 
 float dt = 0.1;                 // simulation time-step
 int steps_per_draw = 10;        // how many simulation steps to take before drawing
@@ -55,7 +59,6 @@ float spring_damp_global = 1;    // global multiplier for spring damping
 float default_freq = 0.5;        // default frequency for springs
 float default_k_spring = 5;      // default spring constant
 float default_k_damp = 0.5;      // default spring damping value
-boolean fast_flag=true; // NOTE: originally was false
 boolean simulation_flag = true;       // perform simulation?
 boolean sensor_show_flag = false;     // show sensor positions?
 boolean tail_flag = false;            // draw the creature's tail?
@@ -165,6 +168,7 @@ void init_creatures()
   time = 0;
   
   // sessile creature
+  /*
   c = new creature(true);
   birth_by_hand(c);
   c.add_point(7, 6, false);
@@ -174,12 +178,14 @@ void init_creatures()
   c.segments[0].sensor_dist = 0;
   c.translate(random (world_width), random (world_height));
   creatures.add(c);
+  */
   
   for(i= 0; i < startplants; i++) {
   p = new plant();
   p.drop_plant(random (world_width), random (world_height));
   plants.add(p);
   }
+  /*
   // create duplicates creatures and place them randomly
   int num = target_creature_count - num_groups - 1;
   for (i = 0; i < num - 97; i++) {
@@ -188,7 +194,7 @@ void init_creatures()
     c = (creature) creatures.get(creatures.size()-1);
     c.group_id = i % num_groups;
   }
-  
+  */
   
   
   // one-segment creature (carnivore)
@@ -244,7 +250,8 @@ void init_creatures()
   if (num_groups > 1) {
     // duplicate the last creature made, so there are num_group copies in total
     for (i = 0; i < num_groups-1; i++) {
-      birth (c, 10, false);
+      //birth (c, 10, false); // NOTE: original
+      birth(h, 10, false);
     }
     // make sure all of these creatures have the correct group_id and color
     for (i = 0; i < num_groups; i++) {
@@ -267,8 +274,8 @@ void draw()
     // take a timestep
     one_timestep();
     if(fast_flag)
-    while(counter%(steps_per_draw*100)!=0) 
-    one_timestep();
+      while(counter%(steps_per_draw*100)!=0) 
+        one_timestep();
     
   }
   
@@ -276,8 +283,8 @@ void draw()
   float y = world_width * (sy - mouseY) / sx;
 
   // draw everything, but maybe not every time-step
-  if (counter % steps_per_draw == 0) {
-    draw_all(); // NOTE: Can uncomment to skip rendering. No rendering makes the simulation faster.
+  if ((counter % steps_per_draw == 0) && (headless==false)) {
+    draw_all();
   }
   
   if (counter % 10000 == 0)
@@ -332,6 +339,7 @@ void draw_info()
 
 // take one simulation time-step for all creatures
 void one_timestep() {
+  //println("Computing timestep " + counter); // TODO: remove
   int i;
   
   // calculate the sensor readings of the creatures
@@ -359,7 +367,7 @@ void one_timestep() {
   }
   if(plantcounter>=plant_respawn_timer)
   {
-    if(plants.size()<=160)
+    if(plants.size()<=maxPlants)
     {
       plant p = new plant();
       p.drop_plant(random (world_width), random (world_height));
@@ -369,13 +377,16 @@ void one_timestep() {
   }
   
   // advance the clock
-  time += dt;
+  time += dt;  
+  time = time % 1000000; // Prevent precision errors
+  
   plantcounter++;
   counter++;
-  if(creatures.size()<=1)
+  
+  if(creatures.size()<=0)
   {
+    println("Creature extinction, ending simulation");
     exit();
-    print("creaature extinction, ending simulation");
   }
 }
 
