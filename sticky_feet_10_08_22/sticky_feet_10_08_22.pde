@@ -182,8 +182,9 @@ void init_creatures()
   
   for(i= 0; i < startplants; i++) {
   p = new plant();
-  p.drop_plant(random (world_width), random (world_height));
-  plants.add(p);
+    p.drop_plant(random (world_width), random (world_height));
+    p.type = i % 3;
+    plants.add(p);
   }
   /*
   // create duplicates creatures and place them randomly
@@ -228,8 +229,9 @@ void init_creatures()
   creatures.add(h);
   h.translate(0.75 * world_width, 0.5 * world_height);
   h.rotate(1);
-  //h.col = plantcol; // NOTE: commented out by Sheldon
   h.col = herbivore_color;
+  h.canEat[0] = 0;
+  h.canEat[1] = 1;
   
   h2 = new creature(false);
   birth_by_hand(h2);
@@ -243,8 +245,9 @@ void init_creatures()
   creatures.add(h2);
   h2.translate(0.25 * world_width, 0.5 * world_height);
   h2.rotate(3.1);
-  //h2.col = plantcol; // NOTE: commented out by Sheldon
   h2.col = herbivore_color;
+  h.canEat[0] = 1;
+  h.canEat[1] = 2;
 
   // maybe create multiple groups
   if (num_groups > 1) {

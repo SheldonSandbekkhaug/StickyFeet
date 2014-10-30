@@ -152,7 +152,7 @@ class controller {
 class creature {
   int hunger_time;
   int starvation = 75000;
-  
+  int[] canEat = new int[2]; // Types of food this creature can eat
   
   int pnum,pmax;
   point[] points;    // point masses of creature

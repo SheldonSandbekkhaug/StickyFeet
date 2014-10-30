@@ -8,6 +8,8 @@ class plant{
   float planty;
   float radius = .25;
   color col;
+  int type; // Used in the food web
+  
   plant(){
    int i;
    col = plantcol;
