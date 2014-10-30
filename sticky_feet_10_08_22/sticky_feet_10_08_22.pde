@@ -102,8 +102,6 @@ void setup()
 
   // set the window size
   size ((int) sx, (int) sy);
-//  hint(ENABLE_OPENGL_4X_SMOOTh);
-//  hint(DISABLE_OPENGL_2X_SMOOTh);  // use this on laptop to stop flickering
   
   // set some default colors
   stroke (bright_color);
@@ -167,53 +165,12 @@ void init_creatures()
   species_count = 0;
   time = 0;
   
-  // sessile creature
-  /*
-  c = new creature(true);
-  birth_by_hand(c);
-  c.add_point(7, 6, false);
-  c.add_point(6, 6, false);
-  c.add_segment (0, 1, 1, 0, 0, 0, 0, true);
-  c.points[0].is_heart = true;
-  c.segments[0].sensor_dist = 0;
-  c.translate(random (world_width), random (world_height));
-  creatures.add(c);
-  */
   
   for(i= 0; i < startplants; i++) {
-  p = new plant();
-  p.drop_plant(random (world_width), random (world_height));
-  plants.add(p);
+    p = new plant();
+    p.drop_plant(random (world_width), random (world_height));
+    plants.add(p);
   }
-  /*
-  // create duplicates creatures and place them randomly
-  int num = target_creature_count - num_groups - 1;
-  for (i = 0; i < num - 97; i++) {
-    c = (creature) creatures.get(0);
-    boolean birth_successful = birth (c, 10, false);
-    c = (creature) creatures.get(creatures.size()-1);
-    c.group_id = i % num_groups;
-  }
-  */
-  
-  
-  // one-segment creature (carnivore)
-  /*
-  c = new creature(true);
-  birth_by_hand(c);
-  c.add_point(7, 5.5, false);
-  c.add_point(6, 5.5, false);
-  c.add_segment (0, 1, 1.0, 0.2, default_freq * 2, 0, 1.0,true);
-  c.points[1].is_mouth = true;
-  c.points[0].is_heart = true;
-  c.segments[0].sensor_set (140, 3, 1.7, SENSOR_HEART);
-  c.segments[0].controller_set (CONTROL_FOOT_AMP, CONTROLLER_CONSTANT, 0.0, -1);
-  creatures.add(c);
-  c.translate(0.5 * world_width, 0.5 * world_height);
-  c.rotate(0.3);
-  //c.col = red; // NOTE: commented out by Sheldon
-  c.col = carnivore_color;
-  */
   
   // Create two herbivores
   h = new creature(false);
@@ -228,7 +185,6 @@ void init_creatures()
   creatures.add(h);
   h.translate(0.75 * world_width, 0.5 * world_height);
   h.rotate(1);
-  //h.col = plantcol; // NOTE: commented out by Sheldon
   h.col = herbivore_color;
   
   h2 = new creature(false);
@@ -243,7 +199,6 @@ void init_creatures()
   creatures.add(h2);
   h2.translate(0.25 * world_width, 0.5 * world_height);
   h2.rotate(3.1);
-  //h2.col = plantcol; // NOTE: commented out by Sheldon
   h2.col = herbivore_color;
 
   // maybe create multiple groups

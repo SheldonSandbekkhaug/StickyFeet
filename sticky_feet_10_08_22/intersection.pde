@@ -8,6 +8,10 @@
 
 //  This file: check for intersection between path of a mouth and segments
 
+import java.util.Collections;
+import java.util.Comparator;
+
+
 ArrayList cross_list = null;
 ArrayList birth_queue = null;
 ArrayList kill_list = new ArrayList();
@@ -239,6 +243,47 @@ void check_eating()
       
     }
   }
+  
+    // DAMPENING: Max carnivores is 30.
+  ArrayList carnivores = new ArrayList();
+  for (i = 0; i < creatures.size(); i++)
+  {
+    if (((creature)creatures.get(i)).carnivore == true)
+    {
+      carnivores.add(creatures.get(i));
+    }
+  }
+  
+  // DAMPENING: remove hungriest carnivore(s) if there's more than 30
+  int maxCarnivores = 15;
+  if (carnivores.size() > maxCarnivores)
+  {
+    int numToRemove = carnivores.size() - maxCarnivores;
+    Collections.sort(carnivores, new Comparator()
+    {
+      public int compare(Object o1, Object o2)
+      {
+        creature c1 = (creature)o1;
+        creature c2 = (creature)o2;
+        if (c1.hunger < c2.hunger)
+          return -1;
+        else if (c1.hunger == c2.hunger)
+          return 0;
+        else
+          return 1;
+      }
+    }
+    );
+    i = carnivores.size() - 1;
+    while (numToRemove > 0)
+    {
+      creature c = (creature)carnivores.get(i);
+      c.status = DEAD;
+      i--;
+      numToRemove--;
+    }
+  }
+  // End DAMPENING
 
   // Remove the dead creatures from the world.
   // Note that we count down from the end of the list to do this.
@@ -249,7 +294,6 @@ void check_eating()
       creatures.remove(i);
     }
   }
-  
   
   // try to give birth to the creatures on the birth queue
   for (i = birth_queue.size()-1; i >= 0; i--) {
@@ -265,7 +309,6 @@ void check_eating()
 //      println ("birth");
     }
   }
-  
 }
 
 // add a crossing event to the list of such events
