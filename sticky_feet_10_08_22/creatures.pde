@@ -160,7 +160,9 @@ class creature {
   int snum,smax;
   segment[] segments;   // segments that connect the points
   
-  int hunger = 2;      // only relevant to herbivores (NOTE: carnivores have hunger too)
+  // How many times the creature must eat before it reproduces
+  int maxHunger = 1;
+  int hunger = maxHunger;
   
   //  bounding box for creature
   

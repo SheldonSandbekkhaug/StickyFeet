@@ -149,7 +149,7 @@ void check_eating()
            plants.remove(j);
            if(true)//creatures.size()<=105)
            {
-             c1.hunger = 2;
+             c1.hunger = c1.maxHunger;
            
              //println("added to the list of herbivore births");
              herbivore_births.add(c1);
