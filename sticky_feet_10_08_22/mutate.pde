@@ -21,7 +21,7 @@ float p_mutate_topology = 1;        // number and configuration of segments
 float p_mutate_behavior = 1;        // sensors and controllers
 float p_mutate_segment_props = 1;   // segment phase, amplitude, length, etc.
 
-float mutate_orientation = 0.05;
+float mutate_orientation = 0.25;
 // specific topology mutation probabilities
 
 float p_delete_segment = 1;
