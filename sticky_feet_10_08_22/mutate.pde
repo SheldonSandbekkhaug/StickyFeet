@@ -87,7 +87,7 @@ void mutate_creature(creature c)
     // pick a new random color for this creature based on group id
     pick_color_from_group (c, c.group_id, true);
   }*/
-  if(random(1)<0.25)
+  if(random(1)<mutate_orientation)
   {
     if(c.carnivore)
     {
