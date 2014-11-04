@@ -21,7 +21,7 @@ float p_mutate_topology = 1;        // number and configuration of segments
 float p_mutate_behavior = 1;        // sensors and controllers
 float p_mutate_segment_props = 1;   // segment phase, amplitude, length, etc.
 
-float mutate_orientation = 0.05;
+float mutate_orientation = 0.25;
 // specific topology mutation probabilities
 
 float p_delete_segment = 1;
@@ -87,7 +87,7 @@ void mutate_creature(creature c)
     // pick a new random color for this creature based on group id
     pick_color_from_group (c, c.group_id, true);
   }*/
-  if(random(1)<0.25)
+  if(random(1)<mutate_orientation)
   {
     if(c.carnivore)
     {
