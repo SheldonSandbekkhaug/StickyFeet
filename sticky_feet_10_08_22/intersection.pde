@@ -147,20 +147,15 @@ void check_eating()
          else
          {
            plants.remove(j);
-           if(true)//creatures.size()<=105)
+           if(true)
            {
              c1.hunger = c1.maxHunger;
-           
-             //println("added to the list of herbivore births");
              herbivore_births.add(c1);
            }
          }
        }
-       
       }
-       
    }
-   
   }
     
   // nothing more to do here if there were no crossing events
@@ -181,7 +176,6 @@ void check_eating()
   for(i = 0; i <herbivore_births.size(); i ++)
   {
     birth_queue.add(herbivore_births.get(i));
-    println("herbivore birth addded to birth queue");
   }
   // clear it once it's done
   herbivore_births = new ArrayList();
@@ -225,7 +219,6 @@ void check_eating()
           e.c1.hunger--;
           if(e.c2.hunger == 0)
           {
-            println("predator birth added to queue");
             if (e.c1.group_id == e.c2.group_id)
               birth_queue.add (e.c1);                    // add c1 to birth queue if c1 and c2 are in same group
             else

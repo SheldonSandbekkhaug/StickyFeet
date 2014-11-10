@@ -166,15 +166,12 @@ void mutate_creature_once(creature c)
   // select one of the mutation types at random
   switch (pick_from_probabilities()) {
     case 0:
-      println ("mutating topology");
       mutate_topology(c);
       break;
     case 1:
-      println ("mutating behavior");
       mutate_behavior(c);
       break;
     case 2:
-      println ("mutating a segment");
       mutate_one_segment(c);
       break;
     default:
@@ -459,7 +456,6 @@ boolean connect_dangling_ends(creature c)
   
   // if there are not enough dangling ends, bail
   if (dangling_end_count(c) < 2) {
-//    println ("error: too few dangling ends in connect_dangling_ends()");
     return false;
   }
     
@@ -485,7 +481,6 @@ boolean connect_dangling_ends(creature c)
   // see if these points are already connected
   // (this could only happen if this is a 1-segment creature)
   if (already_connected (p1, p2, c)) {
-//    println ("error: two points already connected in connect_dangling_ends()");
     return false;
   }
   
@@ -510,8 +505,6 @@ boolean connect_dangling_ends(creature c)
   float epsilon = 0.1;
   p1.x += random(epsilon) - epsilon/2;
   p1.y += random(epsilon) - epsilon/2;
-  
-//  println ("successfully performed connect_dangling_ends()");
 
   // signal a successful change
   return true;
@@ -528,7 +521,6 @@ boolean fuse_dangling_ends(creature c)
   
   // if there are not enough dangling ends, bail
   if (dangling_end_count(c) < 2) {
-//    println ("error: too few dangling ends in fuse_dangling_ends()");
     return false;
   }
   
@@ -554,7 +546,6 @@ boolean fuse_dangling_ends(creature c)
   // see if these points are already connected
   // (this could only happen if this is a 1-segment creature)
   if (already_connected (p1, p2, c)) {
-//    println ("error: two points already connected in connect_dangling_ends()");
     return false;
   }
   
@@ -575,13 +566,11 @@ boolean fuse_dangling_ends(creature c)
   
   // error check
   if (connect1 == -1 || connect2 == -1) {
-//    println ("error: can't find connections in fuse_dangling_ends()");
     return false;
   }
   
   // dont' perform this operation if the two segments connect to the same point
   if (connect1 == connect2) {
-//    println ("oops in fuse_dangling_ends()");
     return false;
   }
   
@@ -629,7 +618,6 @@ boolean add_triangle(creature c)
 
   // bail if we didn't find good segment
   if (!found_segment) {
-//    println ("error: can't find good segment in add_triangle()");
     return false;
   }
   

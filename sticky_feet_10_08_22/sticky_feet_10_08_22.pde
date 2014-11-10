@@ -392,21 +392,17 @@ void one_timestep() {
     {
       plant p = new plant();
       int type = (int)random(100) % 3;
-      print("type :: " + type + "\n");
       if(type == 1)
       {
         p.col = plantcol1;
-        print("type one recieved\n");
       }
       else if(type == 2)
       {
         p.col = plantcol2;
-        print("type two recieved\n");
       }
       else if (type == 0)
       {
         p.col = plantcol3;
-        print("type zero recieved\n");
       }
       p.drop_plant(random (world_width), random (world_height));
       plants.add(p);
