@@ -152,7 +152,8 @@ class controller {
 class creature {
   int hunger_time;
   int starvation = 75000;
-  int[] canEat = new int[2]; // Types of food this creature can eat
+  int[] edible_plants = new int[2]; // Types of plants this creature can eat if it is an herbivore.  Ignored if this creature is a carnivore
+  int[][] edible_creatures = new int[3][2];  //types of herbivores this creature can eat if it is a carnivore.  Ignored if this creature eats plants.
   
   int pnum,pmax;
   point[] points;    // point masses of creature

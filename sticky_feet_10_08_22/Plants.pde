@@ -12,7 +12,7 @@ class plant{
   
   plant(){
    int i;
-   col = plantcol;
+   
   }
   void drop_plant(float x, float y){
   this.plantx = x;
@@ -20,8 +20,8 @@ class plant{
   }
   
   void draw(){
-   stroke(plantcol);
-   fill(plantcol);
+   stroke(this.col);
+   fill(this.col);
    circle_world(this.plantx,this.planty,radius);
     
   }

@@ -12,15 +12,15 @@ import processing.opengl.*;
 
 boolean headless = false; // True if you want to run without rendering
 boolean fast_flag = false; // NOTE: originally was false
-
-float sx = 800; // Option: 1500
-float sy = 600; // Option: 775
+//these options are purely asthetic.  Enlarged for clarity in the more densely popultated food web simultaion
+float sx = 1500; // Option: 800
+float sy = 775; // Option: 600
 
 int target_creature_count = 100;
 int num_groups = 1;
 creature[] group_representative = new creature[num_groups];
-  
-float world_width = 70; // width of the world in creature units. Often-used alternative is 155
+//world width doubled for foood web.
+float world_width = 140; // width of the world in creature units. Often-used alternative is 155
 float world_height = world_width * sy / sx;
 int stroke_width = 1;         // width of drawn line segments
 
@@ -39,16 +39,17 @@ ArrayList plants = new ArrayList();
 
 int counter = 0; 
 int plantcounter = 0;
-int plant_respawn_timer = 200; // counts number of time-steps between plant respawns
+//plant respawn timer halved for food-web
+int plant_respawn_timer = 100; // counts number of time-steps between plant respawns
 int species_count = 0;           // unique id for new creatures
 int birth_count = 0;             // number of total births in simulation
 float time = 0;                  // global clock
 boolean auto_write_flag = true;  // whether to automatically write out state files
 int auto_write_count = 200000;   // number of timesteps between automatic file writing
 int world_seed = 0;              // random number seed for the world
-
-int startplants = 100;
-int maxPlants = 100;
+//startplants and maxplants doubled for food web, as there are less ediblee things for each creature
+int startplants = 200; //was 100
+int maxPlants = 200; //was 100
 
 float dt = 0.1;                 // simulation time-step
 int steps_per_draw = 10;        // how many simulation steps to take before drawing
@@ -80,7 +81,9 @@ color tail_color = color (220, 220, 220);
 color select_color = color (150, 150, 150);
 color red = color (255, 0, 0);
 color green = color (0, 255, 0);
-color plantcol = color(85, 107, 47);
+color plantcol1 = color(85, 255, 47);
+color plantcol2 = color(255,0,0);
+color plantcol3 = color(0, 0, 255);
 color carnivore_color = red;
 color herbivore_color = color(0, 0, 255); // Blue
 
@@ -151,6 +154,7 @@ void delete_all_creatures()
 }
 
 // make the initial distribution of creatures
+// also initializes plants
 void init_creatures()
 {
   int i;
@@ -180,10 +184,24 @@ void init_creatures()
   creatures.add(c);
   */
   
+  
+  //intializes plants at the beginning of the simulation
   for(i= 0; i < startplants; i++) {
   p = new plant();
     p.drop_plant(random (world_width), random (world_height));
     p.type = i % 3;
+    if(i%3 == 1)
+    {  
+      p.col = plantcol1;
+    }
+    else if(i%3 == 2)
+    {
+      p.col = plantcol2;
+    }
+    else if(i%3 ==0)
+    {
+      p.col = plantcol3;
+    }
     plants.add(p);
   }
   /*
@@ -230,8 +248,8 @@ void init_creatures()
   h.translate(0.75 * world_width, 0.5 * world_height);
   h.rotate(1);
   h.col = herbivore_color;
-  h.canEat[0] = 0;
-  h.canEat[1] = 1;
+  h.edible_plants[0] = 0;
+  h.edible_plants[1] = 1;
   
   h2 = new creature(false);
   birth_by_hand(h2);
@@ -246,8 +264,8 @@ void init_creatures()
   h2.translate(0.25 * world_width, 0.5 * world_height);
   h2.rotate(3.1);
   h2.col = herbivore_color;
-  h.canEat[0] = 1;
-  h.canEat[1] = 2;
+  h.edible_plants[0] = 1;
+  h.edible_plants[1] = 2;
 
   // maybe create multiple groups
   if (num_groups > 1) {
@@ -373,6 +391,23 @@ void one_timestep() {
     if(plants.size()<=maxPlants)
     {
       plant p = new plant();
+      int type = (int)random(100) % 3;
+      print("type :: " + type + "\n");
+      if(type == 1)
+      {
+        p.col = plantcol1;
+        print("type one recieved\n");
+      }
+      else if(type == 2)
+      {
+        p.col = plantcol2;
+        print("type two recieved\n");
+      }
+      else if (type == 0)
+      {
+        p.col = plantcol3;
+        print("type zero recieved\n");
+      }
       p.drop_plant(random (world_width), random (world_height));
       plants.add(p);
       plantcounter=0;
