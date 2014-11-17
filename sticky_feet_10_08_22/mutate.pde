@@ -21,7 +21,8 @@ float p_mutate_topology = 1;        // number and configuration of segments
 float p_mutate_behavior = 1;        // sensors and controllers
 float p_mutate_segment_props = 1;   // segment phase, amplitude, length, etc.
 
-float mutate_orientation = 0.25;
+float mutate_orientation = 0.15;
+float mutate_edible = 0.25;
 // specific topology mutation probabilities
 
 float p_delete_segment = 1;
@@ -87,6 +88,7 @@ void mutate_creature(creature c)
     // pick a new random color for this creature based on group id
     pick_color_from_group (c, c.group_id, true);
   }*/
+  //Herbivore and carnivore color distinguished for clarity
   if(random(1)<mutate_orientation)
   {
     if(c.carnivore)
@@ -105,6 +107,38 @@ void mutate_creature(creature c)
   else
   {
     c.col = herbivore_color;
+  }
+  
+  if(random(1) < mutate_edible)
+  {
+    if(c.carnivore == false)
+    {
+      c.edible_plants = mutate_food(c.edible_plants);
+    }
+    else
+    {
+      //a more advanced mutation method should be implemented later - this one allows predators to duplicate edible things
+      int k = floor(random(3.99));
+      c.edible_creatures[k] = mutate_food(c.edible_creatures[k]);
+    }
+  }
+  
+}
+//a little helper function that randomly mutates a two element array
+int[] mutate_food(int[] pair)
+{
+  int[] mutated = new int[2];
+  if(random(1)<0.5)
+  {
+    mutated[0] = pair[0];
+    mutated[1] = floor(random(3.99));
+    return mutated;
+  }
+  else
+  {
+    mutated[0] = floor(random(3.99));
+    mutated[1] = pair[1];
+    return mutated;
   }
   
 }
