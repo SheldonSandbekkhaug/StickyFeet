@@ -62,6 +62,7 @@ void check_eating()
         creatures.remove(i);
         
         // Uncomment this section if you want a plant to spawn when a creature dies
+        //to implement a sort of energy model
         /*plant p = new plant();
         p.drop_plant(random (world_width), random (world_height));
         plants.add(p);
@@ -113,11 +114,27 @@ void check_eating()
         // examine each nearby creature to see if mouth eats it
         for (k = 0; k < num_near; k++) {
           creature c2 = near_creatures[k];
-          if (c1 == c2)
+          if (c1 == c2 || c2.carnivore == true)
             continue;
+          //change this to faalse if you don't want any diet restrictions
+          boolean edible = false;
+          
+          for(i = 0; i < c1.edible_creatures.length; i++)
+          {
+            if(c1.edible_creatures[i][0] == c2.edible_plants[0] && c1.edible_creatures[i][1] == c2.edible_plants[1])
+            {
+              edible = true;
+            }
+            if(c1.edible_creatures[i][0] == c2.edible_plants[1] && c1.edible_creatures[i][1] == c2.edible_plants[0])
+            {
+              edible = true;
+            }
+          }
+          
           //cross_event eats12 = creature_mouth_eats_other (c1, c2, mouth);
           cross_event eats12 = creature_mouth_eats_heart (c1, c2, mouth);
-          if (eats12 != null) {
+          if (eats12 != null && edible == true) 
+          {
             add_cross_event (eats12);
           }
         }
@@ -135,7 +152,7 @@ void check_eating()
        plant p = new plant();
        p = (plant) plants.get(j);
        distance = sqrt(pow((mouth.x-p.plantx),2) + pow((mouth.y - p.planty),2));
-       if(distance <= 1)
+       if(distance <= 1 &&( p.type == c1.edible_plants[0] || p.type == c1.edible_plants[1]))
        {  
          c1.hunger_time = counter;
          

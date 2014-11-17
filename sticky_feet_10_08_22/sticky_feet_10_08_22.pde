@@ -11,7 +11,7 @@
 import processing.opengl.*;
 
 boolean headless = false; // True if you want to run without rendering
-boolean fast_flag = false; // NOTE: originally was false
+boolean fast_flag = true; // NOTE: originally was false
 //these options are purely asthetic.  Enlarged for clarity in the more densely popultated food web simultaion
 float sx = 1500; // Option: 800
 float sy = 775; // Option: 600
@@ -81,9 +81,10 @@ color tail_color = color (220, 220, 220);
 color select_color = color (150, 150, 150);
 color red = color (255, 0, 0);
 color green = color (0, 255, 0);
-color plantcol1 = color(85, 255, 47);
-color plantcol2 = color(255,0,0);
-color plantcol3 = color(0, 0, 255);
+color plantcol1 = color(0, 0, 0);
+color plantcol2 = color(254,0,0);
+color plantcol3 = color(0, 0, 254);
+color plantcol4 = color(0,254,0);
 color carnivore_color = red;
 color herbivore_color = color(0, 0, 255); // Blue
 
@@ -189,18 +190,22 @@ void init_creatures()
   for(i= 0; i < startplants; i++) {
   p = new plant();
     p.drop_plant(random (world_width), random (world_height));
-    p.type = i % 3;
-    if(i%3 == 1)
+    p.type = i % 4;
+    if(p.type == 1)
     {  
       p.col = plantcol1;
     }
-    else if(i%3 == 2)
+    else if(p.type == 2)
     {
       p.col = plantcol2;
     }
-    else if(i%3 ==0)
+    else if(p.type == 3)
     {
       p.col = plantcol3;
+    }
+    else
+    {
+      p.col = plantcol4;
     }
     plants.add(p);
   }
@@ -250,6 +255,13 @@ void init_creatures()
   h.col = herbivore_color;
   h.edible_plants[0] = 0;
   h.edible_plants[1] = 1;
+  //irrelevant until someone mutates into a carnivore
+  h.edible_creatures[0][0] = 0;
+  h.edible_creatures[1][0] = 0;
+  h.edible_creatures[2][0] = 0;
+  h.edible_creatures[0][1] = 1;
+  h.edible_creatures[1][1] = 3;
+  h.edible_creatures[2][1]=  2;
   
   h2 = new creature(false);
   birth_by_hand(h2);
@@ -264,9 +276,15 @@ void init_creatures()
   h2.translate(0.25 * world_width, 0.5 * world_height);
   h2.rotate(3.1);
   h2.col = herbivore_color;
-  h.edible_plants[0] = 1;
-  h.edible_plants[1] = 2;
-
+  h.edible_plants[0] = 2;
+  h.edible_plants[1] = 3;
+  //irrelevant until someone mutates into a carnivore
+  h.edible_creatures[0][0] = 2;
+  h.edible_creatures[1][0] = 1;
+  h.edible_creatures[2][0] = 1;
+  h.edible_creatures[0][1] = 3;
+  h.edible_creatures[1][1] = 2;
+  h.edible_creatures[2][1] = 3;
   // maybe create multiple groups
   if (num_groups > 1) {
     // duplicate the last creature made, so there are num_group copies in total

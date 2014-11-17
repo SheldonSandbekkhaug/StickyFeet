@@ -152,25 +152,49 @@ void calculate_sensor (segment s, creature c)
     }
     
   }
-  for (j = 0; j < num_near; j++) {
-    creature c2 = near_creatures[j];
-    // creature does not sense itself
-    if (c == c2)
-      continue;
-    // find distance from sensor to the heart or mouth of creature c2
-    if (s.sensor_type == SENSOR_HEART) {
-      dx = c2.hx - sx;
-      dy = c2.hy - sy;
-    }
-    else if (s.sensor_type == SENSOR_MOUTH) {
-      dx = c2.mx - sx;
-      dy = c2.my - sy;
-    }
+  else
+  {
+    for (j = 0; j < num_near; j++) {
+      creature c2 = near_creatures[j];
+      // creature does not sense itself
+      if (c == c2)
+        continue;
+      // find distance from sensor to the heart or mouth of creature c2
+      if (s.sensor_type == SENSOR_HEART) {
+        dx = c2.hx - sx;
+        dy = c2.hy - sy;
+      }
+      else if (s.sensor_type == SENSOR_MOUTH) {
+        dx = c2.mx - sx;
+        dy = c2.my - sy;
+      }
    
-    len = sqrt(dx*dx + dy*dy);
-    // if creature is within the sensor's radius, modify the sensor value
-    if (len < rad) {
-      s.sensor_value += 1;
+      len = sqrt(dx*dx + dy*dy);
+      // if creature is within the sensor's radius, modify the sensor value
+      if (len < rad && s.sensor_type == SENSOR_MOUTH) {
+        s.sensor_value += 1;
+      }
+      else
+      {
+        //this loop to determine if the sensed creature is edible - if it isn't, ignore it
+        boolean food = false;
+        for(i = 0; i < c.edible_creatures.length; i++)
+          {
+            if(c.edible_creatures[i][0] == c2.edible_plants[0] && c.edible_creatures[i][1] == c2.edible_plants[1])
+            {
+              food = true;
+            }
+            if(c.edible_creatures[i][0] == c2.edible_plants[1] && c.edible_creatures[i][1] == c2.edible_plants[0])
+            {
+              food = true;
+            }
+          }
+        ///if this creature is edible, sense it here 
+        if (len < rad &&  food == true) {
+        s.sensor_value += 1;
+        }
+        
+      }
     }
   }
 }

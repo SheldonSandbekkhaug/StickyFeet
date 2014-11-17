@@ -9,11 +9,14 @@ class plant{
   float radius = .25;
   color col;
   int type; // Used in the food web
+            //updating number of types to 4
+            //to allow for 6 unique COMBINATIONS, rather than permutations
   
   plant(){
    int i;
    
   }
+  
   void drop_plant(float x, float y){
   this.plantx = x;
   this.planty = y;
