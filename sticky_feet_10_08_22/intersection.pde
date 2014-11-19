@@ -150,8 +150,6 @@ void check_eating()
            if(true)//creatures.size()<=105)
            {
              c1.hunger = c1.maxHunger;
-           
-             //println("added to the list of herbivore births");
              herbivore_births.add(c1);
            }
          }
@@ -181,7 +179,6 @@ void check_eating()
   for(i = 0; i <herbivore_births.size(); i ++)
   {
     birth_queue.add(herbivore_births.get(i));
-    println("herbivore birth addded to birth queue");
   }
   // clear it once it's done
   herbivore_births = new ArrayList();
@@ -204,13 +201,6 @@ void check_eating()
       if(!fast_flag)
       kill_list.add(e);            // add this event to the list of kills
       
-      if(plants.size()<=101)
-      {
-      /*plant p = new plant(); // a plant is added upon creature death to balance the amount of energy in the environment
-       p.drop_plant(random (world_width), random (world_height));
-       plants.add(p);*/      
-      }
-      
       // note that c1 is now the birth representative for its group
       group_representative[e.c1.group_id] = e.c1;
       
@@ -225,7 +215,6 @@ void check_eating()
           e.c1.hunger--;
           if(e.c2.hunger == 0)
           {
-            println("predator birth added to queue");
             if (e.c1.group_id == e.c2.group_id)
               birth_queue.add (e.c1);                    // add c1 to birth queue if c1 and c2 are in same group
             else
@@ -263,7 +252,6 @@ void check_eating()
     // remove this creature from the birth queue if we had a successful birth
     if (birth_successful) {
       birth_queue.remove(i);
-//      println ("birth");
     }
   }
   

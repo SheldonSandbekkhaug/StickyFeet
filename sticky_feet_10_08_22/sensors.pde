@@ -152,25 +152,28 @@ void calculate_sensor (segment s, creature c)
     }
     
   }
-  for (j = 0; j < num_near; j++) {
-    creature c2 = near_creatures[j];
-    // creature does not sense itself
-    if (c == c2)
-      continue;
-    // find distance from sensor to the heart or mouth of creature c2
-    if (s.sensor_type == SENSOR_HEART) {
-      dx = c2.hx - sx;
-      dy = c2.hy - sy;
-    }
-    else if (s.sensor_type == SENSOR_MOUTH) {
-      dx = c2.mx - sx;
-      dy = c2.my - sy;
-    }
-   
-    len = sqrt(dx*dx + dy*dy);
-    // if creature is within the sensor's radius, modify the sensor value
-    if (len < rad) {
-      s.sensor_value += 1;
+  else
+  {
+    for (j = 0; j < num_near; j++) {
+      creature c2 = near_creatures[j];
+      // creature does not sense itself
+      if (c == c2)
+        continue;
+      // find distance from sensor to the heart or mouth of creature c2
+      if (s.sensor_type == SENSOR_HEART) {
+        dx = c2.hx - sx;
+        dy = c2.hy - sy;
+      }
+      else if (s.sensor_type == SENSOR_MOUTH) {
+        dx = c2.mx - sx;
+        dy = c2.my - sy;
+      }
+     
+      len = sqrt(dx*dx + dy*dy);
+      // if creature is within the sensor's radius, modify the sensor value
+      if (len < rad) {
+        s.sensor_value += 1;
+      }
     }
   }
 }

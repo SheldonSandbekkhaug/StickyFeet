@@ -166,15 +166,12 @@ void mutate_creature_once(creature c)
   // select one of the mutation types at random
   switch (pick_from_probabilities()) {
     case 0:
-      println ("mutating topology");
       mutate_topology(c);
       break;
     case 1:
-      println ("mutating behavior");
       mutate_behavior(c);
       break;
     case 2:
-      println ("mutating a segment");
       mutate_one_segment(c);
       break;
     default:
