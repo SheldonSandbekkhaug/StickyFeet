@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /* Clas to represent the data at a particular timestep */
 class GraphStep
 {
@@ -5,12 +7,15 @@ class GraphStep
   int herbivores; // Number of herbivores alive
   int carnivores; // Number of carnivores alive
   int plants; // Number of plants alive
+  int[] plant_types; // Number of each type of plant alive
   
   GraphStep()
   {
+    plant_types = new int[NUM_PLANT_TYPES];
   }
 }
 
+int NUM_PLANT_TYPES = 4;
 int windowWidth = 1320;
 int graphWidth = windowWidth - 50;
 int windowHeight = 400;
@@ -108,7 +113,7 @@ ArrayList<GraphStep> readGraphData(String filename)
   int maxHerbivores = 0;
   int maxCarnivores = 0;
   
-  for (int i = 0; i < lines.length; i += 4)
+  for (int i = 0; i < lines.length; i += 5)
   {
     GraphStep g = new GraphStep();
     
@@ -124,8 +129,19 @@ ArrayList<GraphStep> readGraphData(String filename)
     String cString = lines[i+2].substring(lines[i+2].indexOf(": ")+ 2);
     g.carnivores = Integer.parseInt(cString);
     
+    // Get the number of plants
     String pString = lines[i+3].substring(lines[i+3].indexOf(": ")+ 2);
     g.plants = Integer.parseInt(pString);
+    
+    // Get the number of each plant type
+    String plant_types = lines[i+4];
+    Scanner line_scanner = new Scanner(plant_types);
+    int j = 0;
+    while (line_scanner.hasNext())
+    {
+      g.plant_types[j] = line_scanner.nextInt(); // TODO: debug here
+      j++;
+    }
     
     println("Time: " + g.time + ": H: " + g.herbivores + "; C: " + g.carnivores + 
       "; P: " + g.plants);

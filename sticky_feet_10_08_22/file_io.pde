@@ -13,6 +13,7 @@ import java.io.BufferedWriter; // Used by write_graph_data
 import java.io.FileWriter; // Used by write_graph_data
 
 String run_dir = "";
+boolean advanced = false; // True indicates reading/writing food types
 
 // write descriptions of the creatures to a file
 void write_creatures_to_file()
@@ -383,10 +384,25 @@ void write_graph_data()
     }
   }
   
+  // Count plant types
+  int[] plant_types = {0, 0, 0, 0};
+  for (int i = 0; i < plants.size(); i++)
+  {
+    plant p = (plant)plants.get(i);
+    int plant_type = p.type;
+    plant_types[plant_type]++;
+  }
+  
   String graph_data = "time: " + counter + 
     "\nherbivores: " + num_herbivores + 
     "\ncarnivores: " + num_carnivores +
-    "\nplants: " + plants.size();
+    "\nplants: " + plants.size() +
+    "\n";
+    
+  for (int i = 0; i < plant_types.length; i++)
+  {
+    graph_data += plant_types[i] + " ";
+  }
   
   append_text_to_file(filename, graph_data);
 }
