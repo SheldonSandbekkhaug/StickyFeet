@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+boolean draw_plant_types = false;
+
 /* Clas to represent the data at a particular timestep */
 class GraphStep
 {
@@ -24,6 +26,10 @@ color BLACK = color(0,0,0);
 color BLUE = color(0,0,255);
 color RED = color(255,0,0);
 color PLANT_GREEN = color(153,255,51);
+color[] plant_type_colors;
+
+int xMax;
+int yMax;
 
 void setup() {
   size(windowWidth, windowHeight);
@@ -33,14 +39,22 @@ void setup() {
   // Read the data file
   ArrayList<GraphStep> graphData = readGraphData("graphData.txt");
   
+  // Set plant type colors
+  int num_plant_types = graphData.get(0).plant_types.length;
+  int color_fraction = 255 / num_plant_types;
+  plant_type_colors = new int[num_plant_types];
+  for (int i = 0; i < num_plant_types; i++)
+  {
+    plant_type_colors[i] = color(0, color_fraction * i, 0);
+  }
   // Draw the graph
   draw(graphData);
 }
 
 void draw(ArrayList<GraphStep> graphData) {
   // Get the maximum sizes of each axis for the graph
-  int xMax = graphData.get(graphData.size() - 1).time;
-  int yMax = getHighestGraphValue(graphData);
+  xMax = graphData.get(graphData.size() - 1).time;
+  yMax = getHighestGraphValue(graphData);
   
   fill(BLACK);
   line(0, graphHeight, graphWidth, graphHeight);
@@ -49,43 +63,32 @@ void draw(ArrayList<GraphStep> graphData) {
   int[] prevHerbivorePt = {0,0};
   int[] prevCarnivorePt = {0,0};
   int[] prevPlantPt = {0,160}; // TODO: remove hardcoded default plant value
+  int[][] prevPlantTypesPts = {{0, 0}, {0, 0}, {0, 0}, {0, 0}};
   for (int i = 0; i < graphData.size(); i++)
   {
+    int time = graphData.get(i).time;
     // Draw the herbivore line
-    int x = mapXValue(graphData.get(i).time, graphWidth, xMax);
-    int y = mapYValue(graphData.get(i).herbivores, graphHeight, yMax);
-    
-    if (prevHerbivorePt[0] != 0)
-    {
-      stroke(BLUE);
-      line(prevHerbivorePt[0], prevHerbivorePt[1], x, y);
-    }
-    prevHerbivorePt[0] = x;
-    prevHerbivorePt[1] = y;
+    prevHerbivorePt = drawNextLineSegment(prevHerbivorePt,
+      time, graphData.get(i).herbivores, BLUE);
     
     // Draw line for carnivores
-    int cx = mapXValue(graphData.get(i).time, graphWidth, xMax);
-    int cy = mapYValue(graphData.get(i).carnivores, graphHeight, yMax);
-    
-    if (prevCarnivorePt[0] != 0)
-    {
-      stroke(RED);
-      line(prevCarnivorePt[0], prevCarnivorePt[1], cx, cy);
-    }
-    prevCarnivorePt[0] = cx;
-    prevCarnivorePt[1] = cy;
+    prevCarnivorePt = drawNextLineSegment(prevCarnivorePt,
+      time, graphData.get(i).carnivores, RED);  
     
     // Draw the plant line
-    int px = mapXValue(graphData.get(i).time, graphWidth, xMax);
-    int py = mapYValue(graphData.get(i).plants, graphHeight, yMax);
-    
-    if (prevCarnivorePt[0] != 0)
+    prevPlantPt = drawNextLineSegment(prevPlantPt,
+      time, graphData.get(i).plants, PLANT_GREEN);
+      
+    if (draw_plant_types == true)
     {
-      stroke(PLANT_GREEN);
-      line(prevPlantPt[0], prevPlantPt[1], px, py);
+      // Draw plant type lines
+      for (int j = 0; j < graphData.get(i).plant_types.length; j++)
+      {
+        prevPlantTypesPts[j] = drawNextLineSegment(prevPlantTypesPts[j],
+          //time, graphData.get(i).plant_types[j], BLACK);
+          time, graphData.get(i).plant_types[j], plant_type_colors[j]); // TODO
+      }
     }
-    prevPlantPt[0] = px;
-    prevPlantPt[1] = py;
     
     // Label the graph and draw some tick marks
     if (i % (graphData.size() / 10) == 0)
@@ -95,14 +98,33 @@ void draw(ArrayList<GraphStep> graphData) {
         textFont(f, 10);
         fill(BLACK);
         
+        int x = mapXValue(graphData.get(i).time, graphWidth, xMax);
+        
         // x-axis label
-        text("" + graphData.get(i).time / 1000 + "k", cx, graphHeight + 11);
+        text("" + graphData.get(i).time / 1000 + "k", x, graphHeight + 11);
         
         // Tick marks for the x-axis
         stroke(BLACK);
         line(x, graphHeight, x, graphHeight + 5);
     }
   }
+}
+
+// Draw the next line segment
+int[] drawNextLineSegment(int oldPt[], int newX, int newY, color c)
+{
+    int x = mapXValue(newX, graphWidth, xMax);
+    int y = mapYValue(newY, graphHeight, yMax);
+    
+    if (oldPt[0] != 0)
+    {
+      stroke(c);
+      line(oldPt[0], oldPt[1], x, y);
+    }
+    
+    oldPt[0] = x;
+    oldPt[1] = y;
+    return oldPt;
 }
 
 // Read graph data from a file and store it
@@ -139,7 +161,7 @@ ArrayList<GraphStep> readGraphData(String filename)
     int j = 0;
     while (line_scanner.hasNext())
     {
-      g.plant_types[j] = line_scanner.nextInt(); // TODO: debug here
+      g.plant_types[j] = line_scanner.nextInt();
       j++;
     }
     
