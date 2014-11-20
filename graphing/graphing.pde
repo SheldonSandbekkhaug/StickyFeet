@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+boolean draw_herbivore_types = true;
 boolean draw_plant_types = false;
 
 /* Clas to represent the data at a particular timestep */
@@ -7,21 +8,27 @@ class GraphStep
 {
   int time; // The timestep
   int herbivores; // Number of herbivores alive
+  int[] herbivore_types; // Number of each type of herbivore alive
   int carnivores; // Number of carnivores alive
   int plants; // Number of plants alive
   int[] plant_types; // Number of each type of plant alive
   
   GraphStep()
   {
+    herbivore_types = new int[NUM_HERBIVORE_TYPES];
     plant_types = new int[NUM_PLANT_TYPES];
   }
 }
 
+int NUM_HERBIVORE_TYPES = 24; // 4*3*2
 int NUM_PLANT_TYPES = 4;
+
+int X_BUFFER = 50; // Gap between window edge and graph edge
+int Y_BUFFER = 50;
 int windowWidth = 1320;
-int graphWidth = windowWidth - 50;
+int graphWidth = windowWidth - X_BUFFER * 2;
 int windowHeight = 400;
-int graphHeight = windowHeight - 50;
+int graphHeight = windowHeight - Y_BUFFER;
 color BLACK = color(0,0,0);
 color BLUE = color(0,0,255);
 color RED = color(255,0,0);
@@ -47,6 +54,7 @@ void setup() {
   {
     plant_type_colors[i] = color(0, color_fraction * i, 0);
   }
+  
   // Draw the graph
   draw(graphData);
 }
@@ -56,20 +64,35 @@ void draw(ArrayList<GraphStep> graphData) {
   xMax = graphData.get(graphData.size() - 1).time;
   yMax = getHighestGraphValue(graphData);
   
+  // Draw x-axis
   fill(BLACK);
-  line(0, graphHeight, graphWidth, graphHeight);
+  line(X_BUFFER, graphHeight, graphWidth, graphHeight);
+  
+  // Draw y-axis
+  line(X_BUFFER, Y_BUFFER, X_BUFFER, graphHeight);
   
   // Graph each type of creature
   int[] prevHerbivorePt = {0,0};
   int[] prevCarnivorePt = {0,0};
   int[] prevPlantPt = {0,160}; // TODO: remove hardcoded default plant value
   int[][] prevPlantTypesPts = {{0, 0}, {0, 0}, {0, 0}, {0, 0}};
+  int[][] prevHerbivoreTypesPts = new int[24][2];
   for (int i = 0; i < graphData.size(); i++)
   {
     int time = graphData.get(i).time;
     // Draw the herbivore line
     prevHerbivorePt = drawNextLineSegment(prevHerbivorePt,
       time, graphData.get(i).herbivores, BLUE);
+      
+    if (draw_herbivore_types == true)
+    {
+      // Draw herbivore type lines
+      for (int j = 0; j < graphData.get(i).herbivore_types.length; j++)
+      {
+        prevHerbivoreTypesPts[j] = drawNextLineSegment(prevHerbivoreTypesPts[j],
+          time, graphData.get(i).herbivore_types[j], BLACK);
+      }
+    }
     
     // Draw line for carnivores
     prevCarnivorePt = drawNextLineSegment(prevCarnivorePt,
@@ -85,8 +108,7 @@ void draw(ArrayList<GraphStep> graphData) {
       for (int j = 0; j < graphData.get(i).plant_types.length; j++)
       {
         prevPlantTypesPts[j] = drawNextLineSegment(prevPlantTypesPts[j],
-          //time, graphData.get(i).plant_types[j], BLACK);
-          time, graphData.get(i).plant_types[j], plant_type_colors[j]); // TODO
+          time, graphData.get(i).plant_types[j], plant_type_colors[j]);
       }
     }
     
@@ -135,7 +157,7 @@ ArrayList<GraphStep> readGraphData(String filename)
   int maxHerbivores = 0;
   int maxCarnivores = 0;
   
-  for (int i = 0; i < lines.length; i += 5)
+  for (int i = 0; i < lines.length; i += 6)
   {
     GraphStep g = new GraphStep();
     
@@ -147,18 +169,28 @@ ArrayList<GraphStep> readGraphData(String filename)
     String hString = lines[i+1].substring(lines[i+1].indexOf(": ")+ 2);
     g.herbivores = Integer.parseInt(hString);
     
+    // Get the number of each plant type
+    String herbivore_types = lines[i+2];
+    Scanner line_scanner = new Scanner(herbivore_types);
+    int j = 0;
+    while (line_scanner.hasNext())
+    {
+      g.herbivore_types[j] = line_scanner.nextInt();
+      j++;
+    }
+    
     // Get the number of carnivores
-    String cString = lines[i+2].substring(lines[i+2].indexOf(": ")+ 2);
+    String cString = lines[i+3].substring(lines[i+3].indexOf(": ")+ 2);
     g.carnivores = Integer.parseInt(cString);
     
     // Get the number of plants
-    String pString = lines[i+3].substring(lines[i+3].indexOf(": ")+ 2);
+    String pString = lines[i+4].substring(lines[i+4].indexOf(": ")+ 2);
     g.plants = Integer.parseInt(pString);
     
     // Get the number of each plant type
-    String plant_types = lines[i+4];
-    Scanner line_scanner = new Scanner(plant_types);
-    int j = 0;
+    String plant_types = lines[i+5];
+    line_scanner = new Scanner(plant_types);
+    j = 0;
     while (line_scanner.hasNext())
     {
       g.plant_types[j] = line_scanner.nextInt();
@@ -194,11 +226,11 @@ int getHighestGraphValue(ArrayList<GraphStep> graphData)
 */
 int mapYValue(int y, int max, int scale)
 {
-  return max - (int)(((float)y/(float)scale) * max);
+  return max - (int)(((float)y/(float)scale) * (max - Y_BUFFER));
 }
 
 /* Get the x-coordinate in the window for where this x-value corresponds to */
 int mapXValue(int x, int max, int scale)
 {
-  return (int)(((float)x/(float)scale) * max);
+  return (int)(((float)x/(float)scale) * max) + X_BUFFER;
 }

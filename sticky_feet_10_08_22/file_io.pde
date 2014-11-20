@@ -369,18 +369,34 @@ void write_graph_data()
 
   filename = run_dir + "/" + filename;
 
-  // Count carnivores and herbivores
+  // Count carnivores and herbivores as well as their types.
   int num_carnivores = 0;
   int num_herbivores = 0;
+  int[] num_herbivore_types = new int[4*3*2];
   for (int i = 0; i < creatures.size(); i++) {
     creature c = (creature) creatures.get(i);
     if (c.carnivore == true)
     {
       num_carnivores++;
+      
+      // TODO: differentiate carnivore types
+      
     }
     else
     {
       num_herbivores++;
+      
+      // TODO: differentiate herbivore types
+      
+      // Sort edible plants.
+      if (c.edible_plants[0] > c.edible_plants[1])
+      {
+        int temp = c.edible_plants[0];
+        c.edible_plants[0] = c.edible_plants[1];
+        c.edible_plants[1] = temp;
+      }
+      int type = (c.edible_plants[0] * 4) + c.edible_plants[1];
+      num_herbivore_types[type]++;
     }
   }
   
@@ -394,11 +410,21 @@ void write_graph_data()
   }
   
   String graph_data = "time: " + counter + 
-    "\nherbivores: " + num_herbivores + 
+    "\nherbivores: " + num_herbivores + "\n";
+
+  // Output numbers of herbivore types
+  for (int i = 0; i < num_herbivore_types.length; i++)
+  {
+    graph_data += num_herbivore_types[i] + " ";
+  }
+  
+  
+  graph_data +=
     "\ncarnivores: " + num_carnivores +
     "\nplants: " + plants.size() +
     "\n";
     
+  // Output plant type counts
   for (int i = 0; i < plant_types.length; i++)
   {
     graph_data += plant_types[i] + " ";
