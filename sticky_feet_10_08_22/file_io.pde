@@ -386,9 +386,7 @@ void write_graph_data()
     {
       num_herbivores++;
       
-      // TODO: differentiate herbivore types
-      
-      // Sort edible plants.
+      // Sort edible plants
       if (c.edible_plants[0] > c.edible_plants[1])
       {
         int temp = c.edible_plants[0];
@@ -417,7 +415,6 @@ void write_graph_data()
   {
     graph_data += num_herbivore_types[i] + " ";
   }
-  
   
   graph_data +=
     "\ncarnivores: " + num_carnivores +

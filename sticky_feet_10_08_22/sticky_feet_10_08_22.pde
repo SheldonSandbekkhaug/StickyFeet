@@ -276,15 +276,16 @@ void init_creatures()
   h2.translate(0.25 * world_width, 0.5 * world_height);
   h2.rotate(3.1);
   h2.col = herbivore_color;
-  h.edible_plants[0] = 2;
-  h.edible_plants[1] = 3;
+  h2.edible_plants[0] = 2;
+  h2.edible_plants[1] = 3;
   //irrelevant until someone mutates into a carnivore
-  h.edible_creatures[0][0] = 2;
-  h.edible_creatures[1][0] = 1;
-  h.edible_creatures[2][0] = 1;
-  h.edible_creatures[0][1] = 3;
-  h.edible_creatures[1][1] = 2;
-  h.edible_creatures[2][1] = 3;
+  h2.edible_creatures[0][0] = 2;
+  h2.edible_creatures[1][0] = 1;
+  h2.edible_creatures[2][0] = 1;
+  h2.edible_creatures[0][1] = 3;
+  h2.edible_creatures[1][1] = 2;
+  h2.edible_creatures[2][1] = 3;
+  
   // maybe create multiple groups
   if (num_groups > 1) {
     // duplicate the last creature made, so there are num_group copies in total
@@ -299,8 +300,7 @@ void init_creatures()
       c.group_id = i;
       pick_color_from_group (c, i, false);
     }
-  }  
-  
+  }
 }
 
 // perform one cycle of simulation
