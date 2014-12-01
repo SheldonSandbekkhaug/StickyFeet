@@ -68,7 +68,6 @@ void draw(ArrayList<GraphStep> graphData) {
     // Draw the plant line
     prevPlantPt = drawNextLineSegment(prevPlantPt,
       time, graphData.get(i).plants, PLANT_GREEN);
-    
 
     // Label the graph and draw some tick marks
     if (i % (graphData.size() / 10) == 0)
@@ -99,16 +98,16 @@ void draw(ArrayList<GraphStep> graphData) {
 // Draw the next line segment
 int[] drawNextLineSegment(int oldPt[], int newX, int newY, color c)
 {
-int x = mapXValue(newX, graphWidth, xMax);
-int y = mapYValue(newY, graphHeight, yMax);
-if (oldPt[0] != 0)
-{
-stroke(c);
-line(oldPt[0], oldPt[1], x, y);
-}
-oldPt[0] = x;
-oldPt[1] = y;
-return oldPt;
+  int x = mapXValue(newX, graphWidth, xMax);
+  int y = mapYValue(newY, graphHeight, yMax);
+  if (oldPt[0] != 0)
+  {
+    stroke(c);
+    line(oldPt[0], oldPt[1], x, y);
+  }
+  oldPt[0] = x;
+  oldPt[1] = y;
+  return oldPt;
 }
 
 // Read graph data from a file and store it
