@@ -118,8 +118,10 @@ void mutate_creature(creature c)
     else
     {
       //a more advanced mutation method should be implemented later - this one allows predators to duplicate edible things
+      println("Mutation of predator food");
       int k = floor(random(3.99));
       c.edible_creatures[k] = mutate_food(c.edible_creatures[k]);
+      
     }
   }
   
@@ -132,12 +134,20 @@ int[] mutate_food(int[] pair)
   {
     mutated[0] = pair[0];
     mutated[1] = floor(random(3.99));
+    while(mutated[1] == mutated[0])
+    {
+       mutated[1] = floor(random(3.99));
+    }
     return mutated;
   }
   else
   {
     mutated[0] = floor(random(3.99));
     mutated[1] = pair[1];
+     while(mutated[1] == mutated[0])
+    {
+       mutated[0] = floor(random(3.99));
+    }
     return mutated;
   }
   
