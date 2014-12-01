@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 boolean draw_herbivore_types = true;
-boolean draw_plant_types = false;
+boolean draw_plant_types = true;
 
 /* Clas to represent the data at a particular timestep */
 class GraphStep
@@ -129,6 +129,15 @@ void draw(ArrayList<GraphStep> graphData) {
         stroke(BLACK);
         line(x, graphHeight, x, graphHeight + 5);
     }
+  }
+  
+  // Draw y-axis tick marks
+  for (int i = 0; i < 11; i++)
+  {
+    stroke(BLACK);
+    int y_tick = mapYValue(yMax / 10 * i, graphHeight, yMax);
+    line(X_BUFFER, y_tick, X_BUFFER + 5, y_tick);
+    text("" + (yMax / 10 * i), X_BUFFER - 20, y_tick);
   }
 }
 
