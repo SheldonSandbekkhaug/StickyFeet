@@ -44,7 +44,7 @@ void draw(ArrayList<GraphStep> graphData) {
   
   // Draw x-axis
   fill(BLACK);
-  line(X_BUFFER, graphHeight, graphWidth, graphHeight);
+  line(X_BUFFER, graphHeight, X_BUFFER + graphWidth, graphHeight);
 
   // Draw y-axis
   line(X_BUFFER, Y_BUFFER, X_BUFFER, graphHeight);    
@@ -93,8 +93,6 @@ void draw(ArrayList<GraphStep> graphData) {
     line(X_BUFFER, y_tick, X_BUFFER + 5, y_tick);
     text("" + (yMax / 10 * i), X_BUFFER - 20, y_tick);
   }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 }
 
 // Draw the next line segment
@@ -110,10 +108,6 @@ int[] drawNextLineSegment(int oldPt[], int newX, int newY, color c)
   oldPt[0] = x;
   oldPt[1] = y;
   return oldPt;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
 
 // Read graph data from a file and store it
