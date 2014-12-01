@@ -10,8 +10,8 @@
 
 import processing.opengl.*;
 
-boolean headless = false; // True if you want to run without rendering
-boolean fast_flag = false; // NOTE: originally was false
+boolean headless = true; // True if you want to run without rendering
+boolean fast_flag = true; // NOTE: originally was false
 
 float sx = 800; // Option: 1500
 float sy = 600; // Option: 775
