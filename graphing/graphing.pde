@@ -11,14 +11,19 @@ class GraphStep
   }
 }
 
+int X_BUFFER = 50; // Gap between window edge and graph edge
+int Y_BUFFER = 50;
 int windowWidth = 1320;
-int graphWidth = windowWidth - 50;
+int graphWidth = windowWidth - X_BUFFER * 2;
 int windowHeight = 400;
-int graphHeight = windowHeight - 50;
+int graphHeight = windowHeight - Y_BUFFER;
 color BLACK = color(0,0,0);
 color BLUE = color(0,0,255);
 color RED = color(255,0,0);
 color PLANT_GREEN = color(153,255,51);
+
+int xMax;
+int yMax;
 
 void setup() {
   size(windowWidth, windowHeight);
@@ -34,11 +39,15 @@ void setup() {
 
 void draw(ArrayList<GraphStep> graphData) {
   // Get the maximum sizes of each axis for the graph
-  int xMax = graphData.get(graphData.size() - 1).time;
-  int yMax = getHighestGraphValue(graphData);
+  xMax = graphData.get(graphData.size() - 1).time;
+  yMax = getHighestGraphValue(graphData);
   
+  // Draw x-axis
   fill(BLACK);
-  line(0, graphHeight, graphWidth, graphHeight);
+  line(X_BUFFER, graphHeight, X_BUFFER + graphWidth, graphHeight);
+
+  // Draw y-axis
+  line(X_BUFFER, Y_BUFFER, X_BUFFER, graphHeight);    
   
   // Graph each type of creature
   int[] prevHerbivorePt = {0,0};
@@ -46,58 +55,59 @@ void draw(ArrayList<GraphStep> graphData) {
   int[] prevPlantPt = {0,160}; // TODO: remove hardcoded default plant value
   for (int i = 0; i < graphData.size(); i++)
   {
+    int time = graphData.get(i).time;
+
     // Draw the herbivore line
-    int x = mapXValue(graphData.get(i).time, graphWidth, xMax);
-    int y = mapYValue(graphData.get(i).herbivores, graphHeight, yMax);
-    
-    if (prevHerbivorePt[0] != 0)
-    {
-      stroke(BLUE);
-      line(prevHerbivorePt[0], prevHerbivorePt[1], x, y);
-    }
-    prevHerbivorePt[0] = x;
-    prevHerbivorePt[1] = y;
+    prevHerbivorePt = drawNextLineSegment(prevHerbivorePt,
+       time, graphData.get(i).herbivores, BLUE);
     
     // Draw line for carnivores
-    int cx = mapXValue(graphData.get(i).time, graphWidth, xMax);
-    int cy = mapYValue(graphData.get(i).carnivores, graphHeight, yMax);
-    
-    if (prevCarnivorePt[0] != 0)
-    {
-      stroke(RED);
-      line(prevCarnivorePt[0], prevCarnivorePt[1], cx, cy);
-    }
-    prevCarnivorePt[0] = cx;
-    prevCarnivorePt[1] = cy;
+    prevCarnivorePt = drawNextLineSegment(prevCarnivorePt,
+      time, graphData.get(i).carnivores, RED);
     
     // Draw the plant line
-    int px = mapXValue(graphData.get(i).time, graphWidth, xMax);
-    int py = mapYValue(graphData.get(i).plants, graphHeight, yMax);
-    
-    if (prevCarnivorePt[0] != 0)
-    {
-      stroke(PLANT_GREEN);
-      line(prevPlantPt[0], prevPlantPt[1], px, py);
-    }
-    prevPlantPt[0] = px;
-    prevPlantPt[1] = py;
-    
+    prevPlantPt = drawNextLineSegment(prevPlantPt,
+      time, graphData.get(i).plants, PLANT_GREEN);
+
     // Label the graph and draw some tick marks
     if (i % (graphData.size() / 10) == 0)
     {
-        PFont f;
-        f = createFont("ArialNarrow-20.vlw",16,true);
-        textFont(f, 10);
-        fill(BLACK);
-        
-        // x-axis label
-        text("" + graphData.get(i).time / 1000 + "k", cx, graphHeight + 11);
-        
-        // Tick marks for the x-axis
-        stroke(BLACK);
-        line(x, graphHeight, x, graphHeight + 5);
+      PFont f;
+      f = createFont("ArialNarrow-20.vlw",16,true);
+      textFont(f, 10);
+      fill(BLACK);
+      int x = mapXValue(graphData.get(i).time, graphWidth, xMax);
+      // x-axis label
+      text("" + graphData.get(i).time / 1000 + "k", x, graphHeight + 11);
+      // Tick marks for the x-axis
+      stroke(BLACK);
+      line(x, graphHeight, x, graphHeight + 5);
     }
   }
+  
+  // Draw y-axis tick marks
+  for (int i = 0; i < 11; i++)
+  {
+    stroke(BLACK);
+    int y_tick = mapYValue(yMax / 10 * i, graphHeight, yMax);
+    line(X_BUFFER, y_tick, X_BUFFER + 5, y_tick);
+    text("" + (yMax / 10 * i), X_BUFFER - 20, y_tick);
+  }
+}
+
+// Draw the next line segment
+int[] drawNextLineSegment(int oldPt[], int newX, int newY, color c)
+{
+  int x = mapXValue(newX, graphWidth, xMax);
+  int y = mapYValue(newY, graphHeight, yMax);
+  if (oldPt[0] != 0)
+  {
+    stroke(c);
+    line(oldPt[0], oldPt[1], x, y);
+  }
+  oldPt[0] = x;
+  oldPt[1] = y;
+  return oldPt;
 }
 
 // Read graph data from a file and store it
@@ -156,11 +166,11 @@ int getHighestGraphValue(ArrayList<GraphStep> graphData)
 */
 int mapYValue(int y, int max, int scale)
 {
-  return max - (int)(((float)y/(float)scale) * max);
+  return max - (int)(((float)y/(float)scale) * (max - Y_BUFFER));
 }
 
 /* Get the x-coordinate in the window for where this x-value corresponds to */
 int mapXValue(int x, int max, int scale)
 {
-  return (int)(((float)x/(float)scale) * max);
+  return (int)(((float)x/(float)scale) * max) + X_BUFFER;
 }
