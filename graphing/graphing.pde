@@ -94,6 +94,7 @@ void draw(ArrayList<GraphStep> graphData) {
     text("" + (yMax / 10 * i), X_BUFFER - 20, y_tick);
   }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 }
 
 // Draw the next line segment
@@ -109,6 +110,8 @@ int[] drawNextLineSegment(int oldPt[], int newX, int newY, color c)
   oldPt[0] = x;
   oldPt[1] = y;
   return oldPt;
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 }
